@@ -41,7 +41,7 @@ body {
          padding: 5px;
          width: 100vw;
 
-         @media only screen and (min-width: $smaller-screen) {         
+         @media only screen and (min-width: $smaller-screen) and (min-height: 400px) {         
             width: 75vw;
             padding: 30px;
             flex-direction: row;
