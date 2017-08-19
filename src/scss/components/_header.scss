@@ -1,41 +1,79 @@
 header {
-   background-color: white; 
-   height: 100vh; 
    display: flex;
-   flex-direction: column; 
+   background-color: $theme-col;
+   z-index: 1;
+   justify-content: space-between;
+   flex-direction: column;
 
-   @media only screen and (min-width: 768px) {
-      height: 250px;
-   }
-
-   a {
-      text-decoration: none;
-      color: black;
+   &.fill-screen {
+      height: 100vh;
    }
 
    .title {
-      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+   }
+
+              
+   @media only screen and (min-width: $phone-width) {  
+      flex-direction: row;   
+      height: auto !important; 
+      .toggle {
+         display: none;
+      }
+   }
+
+   a, .toggle, .title {
+      text-decoration: none;
+      color: white;
+   }
+
+   .title {
+      padding: 8px;
       font-size: 18px;
 
+      .left {
+         display: flex;
+         align-items: center;
+      }
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      img {
+         width: 50px;
+         margin-right: 5px;
+      }
+
       @media (min-width: 461px) {
-         font-size: 30px;
+         font-size: 20px;
       }
 
    }
 
    nav {
-      display: flex;
+      display: none;
       flex-direction: column;     
       text-align: center;
       flex: 1;
+      transition: max-height 1s;
 
-      @media only screen and (min-width: 768px) {
+      &.visible {
+         display: flex;
+      }
+
+      @media only screen and (min-width: $phone-width) {
          flex-direction: row;
          justify-content: flex-end;
-         align-items: baseline;
+         display: flex;  
+         align-items: center; 
+         flex: none;
+         height: $nav-height;
 
          .item {
             flex: none !important;
+            padding: 0px 10px !important;
          }
       }
 

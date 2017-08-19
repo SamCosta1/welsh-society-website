@@ -2,5 +2,45 @@
 @import '../components/header';
 
 body {
-    background-color: gray;
+   display: flex;
+   flex-direction: column;
+
+   height: 100vh;
+}
+
+.main-content-container {
+   background-color: gray;
+   flex: 1;   
+   margin-top: -$nav-height;
+   display: flex;
+   justify-content: center;
+   
+   flex-direction: row;
+
+
+   .image { 
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+      background-position: center center !important; 
+      color: white;  
+
+      .title {
+         font-size: 20px;
+      }  
+
+      .content {
+         background-color: $theme-col;
+         width: 75vw;
+         padding: 30px;
+         border-radius: 10px;
+      } 
+   }
+
+   .wales {
+      background: url('../assets/wales.jpg');
+   }
 }
