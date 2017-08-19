@@ -1,1 +1,23 @@
-<div>{{header.test}}</div>
+<header>
+  <div class="title">
+    <div class="left">
+      <img src="../assets/dragon.png">
+      <div>{{header.title}}</div>
+    </div>
+    <div class="toggle fa fa-bars"></div>
+  </div>
+  <nav>
+    <div class="item"><a href="#">{{header.home}}</a></div>
+    <div class="item"><a href="#">{{header.society}}</a></div>
+    <div class="item"><a href="#">{{header.churches}}</a></div>
+    <div class="item"><a href="#">{{header.davidsDay}}</a></div>
+    <div class="item"><a href="#">{{header.contact}}</a></div>
+  </nav>
+</header>
+
+<script>
+  $('.toggle').click(function() {
+    $('nav').toggleClass('visible')
+    $('header').toggleClass('fill-screen');
+  })
+</script>
