@@ -26,10 +26,10 @@ body {
       background-repeat: no-repeat !important;
       background-size: cover !important;
       background-position: center center !important; 
-      color: white;  
+      color: $text-col;  
 
       .title {
-         font-size: 20px;
+         font-size: 30px;
       }  
 
       .content {
@@ -37,6 +37,13 @@ body {
          width: 75vw;
          padding: 30px;
          border-radius: 10px;
+
+         display: flex;
+         
+         img {
+            height: 300px;
+            border-radius: 10px;
+         }
       } 
    }
 
