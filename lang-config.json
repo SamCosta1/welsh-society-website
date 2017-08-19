@@ -1,0 +1,9 @@
+{
+   "source directory": "./src",
+   "distribution directory": "./dist",
+   "default language": "en-uk",
+   "views directory": "./src/templates/views",
+   "data files directory": "./src/templates/data",
+   "partials directory": "./src/templates/partials",
+   "partials data directory": "./src/templates/partials-data"
+}

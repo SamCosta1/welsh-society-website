@@ -1,0 +1,41 @@
+{
+  "name": "welsh-society-website",
+  "version": "1.0.0",
+  "description": "Manchester Welsh Society Website",
+  "main": "index.js",
+  "scripts": {
+    "build-task:template": "node templateEngine.js",
+    "build-task:scss-compile": "node-sass-chokidar --source-map true src/scss/ -o dist/css",
+    "build-task:scss-autoprefixer": "postcss dist/css/*.css --use autoprefixer -d dist/css",
+    "sass:build": "npm-run-all -p build-task:scss-*",
+    "build": "npm-run-all -p build-task:*",
+    "watch:template": "node templateEngine.js debug",
+    "watch:sass": "chokidar 'src/scss/**/*.scss' -c 'npm run sass:build'",
+    "hot-reload": "cd dist; browser-sync start --server --files \"*/**/*\"",
+    "dev": "npm-run-all -p watch:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamCosta1/welsh-society-website.git"
+  },
+  "author": "Sam Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamCosta1/welsh-society-website/issues"
+  },
+  "homepage": "https://github.com/SamCosta1/welsh-society-website#readme",
+  "dependencies": {
+    "fs-extra": "^4.0.1",
+    "handlebars": "^4.0.10",
+    "language-templating": "git+https://github.com/SamCosta1/language-templating.git",
+    "node-watch": "^0.5.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "browser-sync": "^2.18.13",
+    "chokidar-cli": "^1.2.0",
+    "node-sass-chokidar": "0.0.3",
+    "npm-run-all": "^4.0.2",
+    "postcss-cli": "^4.1.0"
+  }
+}
