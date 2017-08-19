@@ -15,7 +15,7 @@ header {
    }
 
               
-   @media only screen and (min-width: $phone-width) {  
+   @media only screen and (min-width: $small-screen) {  
       flex-direction: row;   
       height: auto !important; 
       .toggle {
@@ -30,7 +30,7 @@ header {
 
    .title {
       padding: 8px;
-      font-size: 18px;
+      font-size: 16px;
 
       .left {
          display: flex;
@@ -63,7 +63,7 @@ header {
          display: flex;
       }
 
-      @media only screen and (min-width: $phone-width) {
+      @media only screen and (min-width: $small-screen) {
          flex-direction: row;
          justify-content: flex-end;
          display: flex;  
@@ -83,8 +83,10 @@ header {
          justify-content: center;
          padding: 10px;
          flex: 1;
-         &:hover {
-
+         &:hover, &.active {
+            a {
+               color: #353535;
+            }
          }
       }
 

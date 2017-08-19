@@ -29,21 +29,33 @@ body {
       color: $text-col;  
 
       .title {
-         font-size: 30px;
+         font-size: 45px;
       }  
 
       .content {
          background-color: $theme-col;
-         width: 75vw;
-         padding: 30px;
          border-radius: 10px;
-
          display: flex;
-         
-         img {
-            height: 300px;
-            border-radius: 10px;
+         flex-direction: column;
+         margin: 5px;
+         padding: 5px;
+         width: 100vw;
+
+         @media only screen and (min-width: $smaller-screen) {         
+            width: 75vw;
+            padding: 30px;
+            flex-direction: row;
+            img {
+               height: 300px;
+               border-radius: 10px;
+               display: block !important;
+            }
          }
+
+         img {
+            display: none;
+         }
+
       } 
    }
 

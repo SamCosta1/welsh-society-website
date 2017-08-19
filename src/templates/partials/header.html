@@ -7,11 +7,11 @@
     <div class="toggle fa fa-bars"></div>
   </div>
   <nav>
-    <div class="item"><a href="#">{{header.home}}</a></div>
-    <div class="item"><a href="#">{{header.society}}</a></div>
-    <div class="item"><a href="#">{{header.churches}}</a></div>
-    <div class="item"><a href="#">{{header.davidsDay}}</a></div>
-    <div class="item"><a href="#">{{header.contact}}</a></div>
+    <div class="item {{#if index}}active{{/if}}"><a href="#">{{header.home}}</a></div>
+    <div class="item {{#if society}}active{{/if}}"><a href="#">{{header.society}}</a></div>
+    <div class="item {{#if churches}}active{{/if}}"><a href="#">{{header.churches}}</a></div>
+    <div class="item {{#if davids}}active{{/if}}"><a href="#">{{header.davidsDay}}</a></div>
+    <div class="item {{#if contact}}active{{/if}}"><a href="#">{{header.contact}}</a></div>
   </nav>
 </header>
 

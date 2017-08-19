@@ -10,7 +10,9 @@ body {
     letter-spacing: 0px !important;
 }
 
-$phone-width: 768px;
+$small-screen: 768px;
+$smaller-screen: 500px;
+
 $theme-col: rgba(255, 255, 255, 0.70);
 $text-col: black;
 $nav-height: 52px;
