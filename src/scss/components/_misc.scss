@@ -2,7 +2,7 @@
 @import '../../../node_modules/purecss/build/grids-responsive';
 body {
     margin: 0px !important;
-
+    background-color: #3c3c3c;
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
@@ -14,6 +14,14 @@ $small-screen: 768px;
 $smaller-screen: 500px;
 
 $theme-col: rgba(255, 255, 255, 0.70);
+$invert-theme-col: rgba(32, 32, 32, 0.7);
+
 $hover-col: black;
+$invert-hover-col: #dcdcdc;
+
 $text-col: #2D2D2D;
+$invert-text-col: #ffffff;
+
+
 $nav-height: 52px;
+$footer-height: 60px;
