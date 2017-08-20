@@ -1,1 +1,30 @@
-<div>{{test}}</div>
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta name="viewport" content="width=device-width" />
+   <link rel="stylesheet" type="text/css" href="../css/index.css"> {{> imports }}
+   <title>{{header.title}}</title>
+</head>
+
+<body>
+   {{> header}}
+
+   <div class="main-content-container">
+      <div class="wales image">
+         <div class="content">
+            <div>
+               <div class="title">{{welcome}}</div>
+               <p>{{intro1}}</p>
+               <p>{{intro2}}</p>
+               <p>{{intro3}}</p>
+            </div>
+            <img src="../assets/daffodil.png"/>
+         </div>
+         
+      </div>
+   </div>
+   {{> footer}}
+</body>
+
+</html>

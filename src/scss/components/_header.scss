@@ -1,0 +1,111 @@
+.nav-visible { // Un collapse navbar
+   header {
+      height: 100vh;
+      background-color: rgba($theme-col, 0.88);
+   }
+   
+   nav {
+         display: flex;
+   }
+}
+
+header {
+   display: flex;
+   background-color: $theme-col;
+   z-index: 1;
+   justify-content: space-between;
+   flex-direction: column;
+
+
+   .title {
+      display: flex;
+      justify-content: space-between;
+   }
+
+              
+   @media only screen and (min-width: $small-screen) {  
+      flex-direction: row;   
+      height: auto !important; 
+      .toggle {
+         display: none;
+      }
+   }
+
+   .toggle:hover {
+      cursor: pointer;
+      color: $hover-col;
+   }
+
+   a, .toggle, .title {
+      text-decoration: none;
+      color: $text-col;
+   }
+
+   .title {
+      padding: 8px;
+      font-size: 16px;
+
+      .left {
+         display: flex;
+         align-items: center;
+      }
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      img {
+         width: 50px;
+         margin-right: 5px;
+      }
+
+      @media (min-width: 825px) {
+         font-size: 20px;
+      }
+
+   }   
+
+   nav {
+      display: none;
+      flex-direction: column;     
+      text-align: center;
+      flex: 1;
+      transition: max-height 1s;
+      
+
+      @media only screen and (min-width: $small-screen) {
+         flex-direction: row;
+         justify-content: flex-end;
+         display: flex;  
+         align-items: center; 
+         flex: none;
+         height: $nav-height;
+
+         .item {
+            flex: none !important;
+            padding: 0px 10px !important;
+
+            &:hover, &.active {
+               background-color:transparent !important;
+            }
+         }
+      }
+
+      .item {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         padding: 10px;
+         flex: 1;
+         &:hover, &.active {
+            background-color: rgba(181, 181, 181, 0.26);
+            cursor: pointer;
+            div {
+               color: $hover-col;
+            }
+         }
+      }
+
+   }
+   
+}

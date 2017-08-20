@@ -1,0 +1,46 @@
+@import '../components/misc';
+@import '../components/header';
+@import '../components/footer';
+
+body {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 100%;
+
+   .footer-overlap {
+      display: none;
+   }
+}
+
+.main-content-container {
+   background-color: #FFFFFF;
+   flex: 1;   
+   margin-top: -$nav-height;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   width: 100%;
+
+   .title {
+      font-size: 30px;
+      padding-bottom: 5px !important;
+   }  
+
+   .subtitle {
+      font-size: 20px;
+      padding: 5px 0px;
+   }
+
+   .text {
+      padding: 20px;
+   }
+}
+
+.header-banner {
+   background: url("../assets/contact-header.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center; 
+   height: 160px;
+}

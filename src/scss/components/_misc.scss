@@ -1,0 +1,38 @@
+@import '../../../node_modules/purecss/build/pure-min';
+@import '../../../node_modules/purecss/build/grids-responsive';
+body {
+    margin: 0px !important;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    
+    &.nav-visible {
+        overflow: hidden;
+        .main-content-container {
+            margin-top: -100vh;
+        }
+    }
+}
+
+img {
+    border-radius: 6px;
+}
+    
+* {
+    letter-spacing: 0px !important;
+}
+
+$small-screen: 768px;
+$smaller-screen: 500px;
+
+$theme-col: rgba(255, 255, 255, 0.70);
+$invert-theme-col: rgb(39, 39, 39);
+
+$hover-col: black;
+$invert-hover-col: #dcdcdc;
+
+$text-col: #2D2D2D;
+$invert-text-col: #ffffff;
+
+
+$nav-height: 52px;
+$footer-height: 60px;

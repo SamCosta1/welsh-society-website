@@ -6,6 +6,7 @@ const views = './src/templates/views';
 const data = './src/templates/data';
 const partialData = './src/templates/partials-data';
 const dist = './dist';
+const assets = './dist/assets';
 const partials = './src/templates/partials';
 const index = './src/index.html';
 
@@ -14,15 +15,14 @@ var extraData = {};
 compileAll();
 
 // Only watch files in debug mode
-if (process.argv[2] == "debug" || process.argv[2] == "-d");
+if (process.argv[2] == "debug" || process.argv[2] == "-d")
   watch('./src/templates', { recursive: true }, function(evt, name) {
     compileAll();
   });
 
 function createDirs() {  
-
   if (!fs.existsSync(dist))
-      throw "Directory: " + dist + "does not exist";
+      fs.mkdirSync(dist);
 
   // Create a directory in dist for each language in data
   fs.readdir(data, (err, files) => {

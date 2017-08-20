@@ -1,0 +1,73 @@
+@import '../components/misc';
+@import '../components/header';
+@import '../components/footer';
+
+body {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 100%;
+
+   .footer-overlap {
+      display: none;
+   }
+}
+
+.main-content-container {
+   background-color: #FFFFFF;
+   flex: 1;   
+   margin-top: -$nav-height;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   width: 100%;
+
+   .title {
+      font-size: 30px;
+      padding-bottom: 5px !important;
+   }  
+
+   .text {
+      padding: 20px;
+   }
+   
+   .address-container {
+      padding: 20px;
+      text-align: center;
+      font-weight: bold;
+
+      div {
+         padding-bottom: 20px;
+      }
+   }
+
+   .gymanfa {
+      background-color: #b0fda1;
+   }
+
+   .section {
+
+      .text {
+         flex: 2;
+      }
+
+      .img-container {
+         text-align: center;
+
+         img {
+            margin: 20px 0px 20px 20px;
+            flex: 1;
+         }
+      }
+
+   }
+   
+}
+
+.header-banner {
+   background: url("../assets/chapel-header.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center; 
+   height: 160px;
+}

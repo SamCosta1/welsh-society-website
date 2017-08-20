@@ -1,1 +1,39 @@
-<div>{{header.test}}</div>
+<header>
+  <div class="title">
+    <div class="left">
+      <img src="../assets/we-flag.png">
+      <div>{{header.title}}</div>
+    </div>
+    <div class="toggle fa fa-bars"></div>
+  </div>
+  <nav>
+    <a href="/{{lang}}/" class="item {{#if index}}active{{/if}}">
+      <div>{{header.home}}</div>
+    </a>
+    <a href="/{{lang}}/society.html"class="item {{#if society}}active{{/if}}">
+      <div>{{header.society}}</div>
+    </a>
+    <a href="/{{lang}}/chapels.html" class="item {{#if chapels}}active{{/if}}">
+      <div>{{header.chapels}}</div>
+    </a>
+    <a class="item {{#if davids}}active{{/if}}">
+      <div>{{header.davidsDay}}</div>
+    </a>
+    <a href="/{{lang}}/contact.html" class="item {{#if contact}}active{{/if}}">
+      <div>{{header.contact}}</div>
+    </a>
+  </nav>
+</header>
+
+<script>
+  $('.toggle').click(function () {
+    $('body').toggleClass('nav-visible');
+  });
+
+  $(window).resize(function () {
+    if (window.innerWidth > 768) {
+      $('body').removeClass('nav-visible');
+    }
+  });
+
+</script>
