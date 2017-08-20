@@ -15,13 +15,12 @@ var extraData = {};
 compileAll();
 
 // Only watch files in debug mode
-if (process.argv[2] == "debug" || process.argv[2] == "-d");
+if (process.argv[2] == "debug" || process.argv[2] == "-d")
   watch('./src/templates', { recursive: true }, function(evt, name) {
     compileAll();
   });
 
 function createDirs() {  
-
   if (!fs.existsSync(dist))
       fs.mkdirSync(dist);
 
