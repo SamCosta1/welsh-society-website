@@ -1,0 +1,45 @@
+$footer-offset: 10px;
+
+.footer-overlap {
+   height: $footer-offset;
+   background-color: $invert-theme-col;
+   bottom: 0px;
+   position: absolute;
+   width: 100%;
+}
+
+footer {
+   position: absolute;
+   bottom: -$footer-height;
+   background-color: $invert-theme-col;
+   
+   justify-content: space-between;
+   width: 100%;
+   
+   display: flex;
+   align-items: center;
+   
+   height: $footer-height;
+   
+   
+   .lang {      
+      margin: 10px;
+   }
+   
+   a {
+      display: flex;
+      align-items: center;
+      color: $invert-text-col;
+      
+      text-decoration: none;
+      
+      &:hover {
+         color: $invert-hover-col;
+      }
+   }
+   
+   img {
+      margin-right: 10px;
+      height: 30px;
+   }
+}

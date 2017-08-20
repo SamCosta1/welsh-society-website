@@ -86,7 +86,7 @@ header {
             padding: 0px 10px !important;
 
             &:hover, &.active {
-               background-color: transparent !important;
+               background-color:transparent !important;
             }
          }
       }
@@ -98,7 +98,7 @@ header {
          padding: 10px;
          flex: 1;
          &:hover, &.active {
-            background-color: rgba($theme-col, 0.25);
+            background-color: rgba(181, 181, 181, 0.26);
             cursor: pointer;
             div {
                color: $hover-col;
