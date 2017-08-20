@@ -6,6 +6,12 @@ body {
    flex-direction: column;
 
    height: 100vh;
+
+   &.nav-visible {
+      .main-content-container {
+         margin-top: -100vh;
+      }
+   }
 }
 
 .main-content-container {
