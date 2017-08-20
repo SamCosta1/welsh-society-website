@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta name="viewport" content="width=device-width" />
+   <link rel="stylesheet" type="text/css" href="../css/society.css"> {{> imports }}
+   <title>{{header.title}}</title>
+</head>
+
+<body>
+   {{> header}}
+   <div class="main-content-container">
+      <div class="header-banner"></div>
+      <div class="meetings-container">
+         <div class="description">
+            <div class="title text">{{meetings}}</div>
+            <div class="text">{{meetings-text}}</div>
+            <div class="address text">
+               Noddfa Chapel<br> Oaker Avenue<br> West Didsbury<br> M20 2XH.
+            </div>
+         </div>
+         <div id="map-container" class=""></div>
+         <div class="description">
+            <div class="title text">{{details}}</div>
+            <div class="text">{{further-details}} <a href="/{{lang}}/contact.html">Ann Hunt</a></div>
+         </div>
+      </div>
+
+   </div>
+
+   {{> footer}}
+</body>
+
+<script>
+   function initMap() {
+      var church = { lat: 53.423256, lng: -2.254001 };
+      var map = new google.maps.Map(document.getElementById('map-container'), {
+         zoom: 10,
+         center: church
+      });
+      var marker = new google.maps.Marker({
+         position: church,
+         map: map
+      });
+   }
+
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZfNm3_5eZ7Webhk18JuEys0eOa6jG9l0&callback=initMap">
+
+</script>
+
+
+</html>

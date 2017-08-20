@@ -1,0 +1,61 @@
+@import '../components/misc';
+@import '../components/header';
+@import '../components/footer';
+
+body {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 100%;
+
+   .footer-overlap {
+      display: none;
+   }
+}
+
+.main-content-container {
+   background-color: #FFFFFF;
+   flex: 1;   
+   margin-top: -$nav-height;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   width: 100%;
+
+   .meetings-container {
+
+      .title {
+         font-size: 30px;
+      }
+
+      .text {
+         padding: 20px;
+      }
+
+      .address {
+         text-align: center;
+         font-weight: bold;
+      }
+   }
+
+   #map-container {
+      width: 100%;
+      height: 50vh;
+
+   }
+   
+
+}
+
+.header-banner {
+   background: url("../assets/society.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center; 
+   height: 160px;
+}
+
+.program {
+   width: 200px;
+   height: 500px;
+}

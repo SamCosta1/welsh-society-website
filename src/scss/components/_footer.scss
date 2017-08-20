@@ -2,16 +2,14 @@ $footer-offset: 10px;
 
 .footer-overlap {
    height: $footer-offset;
-   background-color: $invert-theme-col;
+   background-color: rgba($invert-theme-col, 0.7);
    bottom: 0px;
-   position: absolute;
    width: 100%;
 }
 
 footer {
-   position: absolute;
    bottom: -$footer-height;
-   background-color: $invert-theme-col;
+   background-color: rgb(39, 39, 39);
    
    justify-content: space-between;
    width: 100%;

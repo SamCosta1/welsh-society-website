@@ -8,13 +8,11 @@ body {
 
    height: 100vh;
 
-   &.nav-visible {
-      .main-content-container {
-         margin-top: -100vh;
-      }
-   }
 }
 
+footer, .footer-overlap {
+   position: absolute;
+}
 .main-content-container {
    background-color: gray;
    flex: 1;   
