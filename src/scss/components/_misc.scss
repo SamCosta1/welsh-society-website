@@ -2,10 +2,16 @@
 @import '../../../node_modules/purecss/build/grids-responsive';
 body {
     margin: 0px !important;
-    background-color: #3c3c3c;
     font-family: Verdana, Arial, Helvetica, sans-serif;
+    
+    &.nav-visible {
+        overflow: hidden;
+        .main-content-container {
+            margin-top: -100vh;
+        }
+    }
 }
-
+    
 * {
     letter-spacing: 0px !important;
 }
