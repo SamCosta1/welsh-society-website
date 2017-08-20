@@ -22,7 +22,7 @@ if (process.argv[2] == "debug" || process.argv[2] == "-d");
 function createDirs() {  
 
   if (!fs.existsSync(dist))
-      throw "Directory: " + dist + "does not exist";
+      fs.mkdirSync(dist);
 
   // Create a directory in dist for each language in data
   fs.readdir(data, (err, files) => {
