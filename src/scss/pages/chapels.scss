@@ -30,6 +30,16 @@ body {
    .text {
       padding: 20px;
    }
+   
+   .address-container {
+      padding: 20px;
+      text-align: center;
+      font-weight: bold;
+
+      div {
+         padding-bottom: 20px;
+      }
+   }
 
    .gymanfa {
       background-color: #b0fda1;
