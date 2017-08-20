@@ -1,3 +1,14 @@
+.nav-visible { // Un collapse navbar
+   header {
+      height: 100vh;
+      background-color: rgba($theme-col, 0.88);
+   }
+   
+   nav {
+         display: flex;
+   }
+}
+
 header {
    display: flex;
    background-color: $theme-col;
@@ -5,9 +16,6 @@ header {
    justify-content: space-between;
    flex-direction: column;
 
-   &.fill-screen {
-      height: 100vh;
-   }
 
    .title {
       display: flex;
@@ -15,7 +23,7 @@ header {
    }
 
               
-   @media only screen and (min-width: $phone-width) {  
+   @media only screen and (min-width: $small-screen) {  
       flex-direction: row;   
       height: auto !important; 
       .toggle {
@@ -23,14 +31,19 @@ header {
       }
    }
 
+   .toggle:hover {
+      cursor: pointer;
+      color: $hover-col;
+   }
+
    a, .toggle, .title {
       text-decoration: none;
-      color: white;
+      color: $text-col;
    }
 
    .title {
       padding: 8px;
-      font-size: 18px;
+      font-size: 16px;
 
       .left {
          display: flex;
@@ -46,11 +59,11 @@ header {
          margin-right: 5px;
       }
 
-      @media (min-width: 461px) {
+      @media (min-width: 825px) {
          font-size: 20px;
       }
 
-   }
+   }   
 
    nav {
       display: none;
@@ -58,12 +71,9 @@ header {
       text-align: center;
       flex: 1;
       transition: max-height 1s;
+      
 
-      &.visible {
-         display: flex;
-      }
-
-      @media only screen and (min-width: $phone-width) {
+      @media only screen and (min-width: $small-screen) {
          flex-direction: row;
          justify-content: flex-end;
          display: flex;  
@@ -74,6 +84,10 @@ header {
          .item {
             flex: none !important;
             padding: 0px 10px !important;
+
+            &:hover, &.active {
+               background-color: transparent !important;
+            }
          }
       }
 
@@ -83,8 +97,12 @@ header {
          justify-content: center;
          padding: 10px;
          flex: 1;
-         &:hover {
-
+         &:hover, &.active {
+            background-color: rgba($theme-col, 0.25);
+            cursor: pointer;
+            div {
+               color: $hover-col;
+            }
          }
       }
 

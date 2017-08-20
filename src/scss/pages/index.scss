@@ -6,6 +6,12 @@ body {
    flex-direction: column;
 
    height: 100vh;
+
+   &.nav-visible {
+      .main-content-container {
+         margin-top: -100vh;
+      }
+   }
 }
 
 .main-content-container {
@@ -26,17 +32,36 @@ body {
       background-repeat: no-repeat !important;
       background-size: cover !important;
       background-position: center center !important; 
-      color: white;  
+      color: $text-col;  
 
       .title {
-         font-size: 20px;
+         font-size: 45px;
       }  
 
       .content {
          background-color: $theme-col;
-         width: 75vw;
-         padding: 30px;
          border-radius: 10px;
+         display: flex;
+         flex-direction: column;
+         margin: 5px;
+         padding: 5px;
+         width: 100vw;
+
+         @media only screen and (min-width: $smaller-screen) and (min-height: 400px) {         
+            width: 75vw;
+            padding: 30px;
+            flex-direction: row;
+            img {
+               height: 300px;
+               border-radius: 10px;
+               display: block !important;
+            }
+         }
+
+         img {
+            display: none;
+         }
+
       } 
    }
 
