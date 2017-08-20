@@ -6,6 +6,7 @@ const views = './src/templates/views';
 const data = './src/templates/data';
 const partialData = './src/templates/partials-data';
 const dist = './dist';
+const assets = './dist/assets';
 const partials = './src/templates/partials';
 const index = './src/index.html';
 
@@ -23,6 +24,9 @@ function createDirs() {
 
   if (!fs.existsSync(dist))
       fs.mkdirSync(dist);
+
+  if (!fs.existsSync(assets))
+    fs.mkdirSync(assets);
 
   // Create a directory in dist for each language in data
   fs.readdir(data, (err, files) => {
