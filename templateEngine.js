@@ -24,9 +24,6 @@ function createDirs() {
   if (!fs.existsSync(dist))
       fs.mkdirSync(dist);
 
-  if (!fs.existsSync(assets))
-    fs.mkdirSync(assets);
-
   // Create a directory in dist for each language in data
   fs.readdir(data, (err, files) => {
     files.forEach(lang => { 

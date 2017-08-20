@@ -4,10 +4,10 @@
   "description": "Manchester Welsh Society Website",
   "main": "index.js",
   "scripts": {
-    "build-task:template": "node templateEngine.js",
+    "build-task:template": "node templateEngine.js; npm run copy-assets",
     "build-task:scss-compile": "node-sass-chokidar --source-map true src/scss/pages -o dist/css",
     "build-task:scss-autoprefixer": "postcss dist/css/*.css --use autoprefixer -d dist/css",
-    "build-task:copy-assets": "rm -rf dist/assets; cp -r src/assets dist/assets",
+    "copy-assets": "rm -rf dist/assets; cp -r src/assets dist/assets",
     "sass:build": "npm-run-all -p build-task:scss-*",
     "build": "npm-run-all -p build-task:*",
     "watch:template": "node templateEngine.js debug",
