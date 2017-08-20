@@ -3,6 +3,7 @@
 body {
     margin: 0px !important;
     font-family: Verdana, Arial, Helvetica, sans-serif;
+    min-height: 100vh;
     
     &.nav-visible {
         overflow: hidden;

@@ -27,41 +27,14 @@ body {
       padding-bottom: 5px !important;
    }  
 
+   .subtitle {
+      font-size: 20px;
+      padding: 5px 0px;
+   }
+
    .text {
       padding: 20px;
    }
-   
-   .address-container {
-      padding: 20px;
-      text-align: center;
-      font-weight: bold;
-
-      div {
-         padding-bottom: 20px;
-      }
-   }
-
-   .gymanfa {
-      background-color: #b0fda1;
-   }
-
-   .section {
-
-      .text {
-         flex: 2;
-      }
-
-      .img-container {
-         text-align: center;
-
-         img {
-            margin: 20px 0px 20px 20px;
-            flex: 1;
-         }
-      }
-
-   }
-   
 }
 
 .header-banner {
