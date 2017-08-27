@@ -7,30 +7,31 @@
    "details": "Details",
    "further-details": "Programme and further details may be obtained from ",
    "events-title": "Events",
+   "chair-str": "Chair",
    "events": {
       "2017": [
          {
             "date": "October 13th",
             "info": [
                "Photographs by John Thomas",
-               "Dr John Williams, Liverpool",
-               "Chair Mr Rhobet Williams"
-            ]
+               "Dr John Williams, Liverpool"
+            ],
+            "chair": "Mr Rhobet Williams"
          },
          {
             "date": "November 10th",
             "info": [
                "Wales and Madagascar",
-               "Reverend Eleri Edwards",
-               "Chair Dr Bill Roberts"
-            ]
+               "Reverend Eleri Edwards"
+            ],
+            "chair": "Dr Bill Roberts"
          },
          {
             "date": "December 8th",
             "info": [
-               "Christmasy evening with Glynn, Trefor a Lilian",
-               "Chair Mrs Eflyn Evans"
-            ]
+               "Christmasy evening with Glynn, Trefor a Lilian"
+            ],
+            "chair": "Mrs Eflyn Evans"
          }
       ],
       "2018": [
@@ -38,17 +39,17 @@
             "date": "January 12th",
             "info": [
                "Patagonia Experiences",
-               "Mr Ceflyn Burgess, Rhuthun",
-               "Chair Mr Alan Davies"
-            ]
+               "Mr Ceflyn Burgess, Rhuthun"
+            ],
+            "chair": "Mr Alan Davies"
          },
          {
             "date": "Febuary 9th",
             "info": [
                "Forty years of concerts in the Music Collage",
-               "Mr Elwyn Evans, Didsbury",
-               "Chair Mrs Mair Swift"
-            ]
+               "Mr Elwyn Evans, Didsbury"
+            ],
+            "chair": "Mrs Mair Swift"
          },
          {
             "date": "Febuary 24th",
