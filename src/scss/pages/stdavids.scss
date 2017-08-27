@@ -1,6 +1,7 @@
 @import '../components/misc';
 @import '../components/header';
 @import '../components/footer';
+
 .popup-container {
    position: fixed;
    display: none;
@@ -48,14 +49,14 @@
         padding: 20px 10px 0px 10px;
         font-size: 20px !important;
         @media only screen and (min-width: $smaller-screen) {
-            font-size: $title-font-size;
+            font-size: $title-font-size !important;
             padding: 20px 0px;
         }
     }
     .images-container {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         @media only screen and (min-width: $smaller-screen) {
             flex-wrap: wrap;
             flex-direction: row;
