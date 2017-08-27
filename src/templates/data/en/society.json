@@ -5,5 +5,68 @@
    "meetings": "Meetings",
    "meetings-text": "Regular meetings are held, on the second Friday of the month from October to February at",
    "details": "Details",
-   "further-details": "Programme and further details may be obtained from "
+   "further-details": "Programme and further details may be obtained from ",
+   "events-title": "Events",
+   "events": {
+      "2017": [
+         {
+            "date": "October 13th",
+            "info": [
+               "Photographs by John Thomas",
+               "Dr John Williams, Liverpool",
+               "Chair Mr Rhobet Williams"
+            ]
+         },
+         {
+            "date": "November 10th",
+            "info": [
+               "Wales and Madagascar",
+               "Reverend Eleri Edwards",
+               "Chair Dr Bill Roberts"
+            ]
+         },
+         {
+            "date": "December 8th",
+            "info": [
+               "Christmasy evening with Glynn, Trefor a Lilian",
+               "Chair Mrs Eflyn Evans"
+            ]
+         }
+      ],
+      "2018": [
+         {
+            "date": "January 12th",
+            "info": [
+               "Patagonia Experiences",
+               "Mr Ceflyn Burgess, Rhuthun",
+               "Chair Mr Alan Davies"
+            ]
+         },
+         {
+            "date": "Febuary 9th",
+            "info": [
+               "Forty years of concerts in the Music Collage",
+               "Mr Elwyn Evans, Didsbury",
+               "Chair Mrs Mair Swift"
+            ]
+         },
+         {
+            "date": "Febuary 24th",
+            "time": "7:00pm",
+            "location": "Royal Northern College of Music",
+            "info": [
+               "St David's day concert",
+               "Ger y Ffin Choir"
+            ]
+         },
+         {
+            "date": "May 11th",
+            "time": "7:30pm",
+            "location": "Noddfa Oaker Avenue",
+            "info": [
+               "Yearly Meeting"
+            ]
+         }
+      ]
+   }
 }

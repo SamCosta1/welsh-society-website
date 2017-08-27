@@ -18,10 +18,25 @@ $invert-text-col: #ffffff;
 $nav-height: 52px;
 $footer-height: 60px;
 
+@mixin main-content-container {
+    background-color: #FFFFFF;
+    flex: 1;   
+    margin-top: -$nav-height;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
 
 body {
     margin: 0px !important;
-    font-family: 'junctionregular';
+
+    font-family: 'junctionregular' !important;
+
+    .pure-g [class *= "pure-u"] {
+        font-family: 'junctionregular' !important;
+    }
     min-height: 100vh;
     
     &.nav-visible {
@@ -45,6 +60,10 @@ body {
 
       .title {
          font-size: 30px;
+      }
+
+      .subtitle {
+         font-size: 20px;
       }
 
       .text {
