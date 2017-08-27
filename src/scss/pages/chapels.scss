@@ -2,17 +2,6 @@
 @import '../components/header';
 @import '../components/footer';
 
-body {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   height: 100%;
-
-   .footer-overlap {
-      display: none;
-   }
-}
-
 .main-content-container {
    @include main-content-container;
    

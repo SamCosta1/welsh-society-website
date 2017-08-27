@@ -2,33 +2,8 @@
 @import '../components/header';
 @import '../components/footer';
 
-body {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   height: 100%;
-
-   .footer-overlap {
-      display: none;
-   }
-}
-
 .main-content-container {
    @include main-content-container;
-
-   .title {
-      font-size: 30px;
-      padding-bottom: 5px !important;
-   }  
-
-   .subtitle {
-      font-size: 20px;
-      padding: 5px 0px;
-   }
-
-   .text {
-      padding: 20px;
-   }
 }
 
  @include header-banner ("../assets/contact-header.jpg");
