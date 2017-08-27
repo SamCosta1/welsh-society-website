@@ -1,6 +1,47 @@
 @import '../components/misc';
 @import '../components/header';
 @import '../components/footer';
+.popup-container {
+   position: fixed;
+   display: none;
+   left: 0px;
+   right: 0px;
+   top: 0px;
+   bottom: 0px;
+   z-index: 1;
+   align-items: center;
+   justify-content: center;
+   &.visible {
+      display: flex;
+      background-color: rgba(0, 0, 0, 0.75);
+   }
+   .popup {    
+      border-radius: 10px;
+      background-color: white;
+      position: relative;
+      text-align: center;
+      .close {
+         cursor: pointer;
+         position: absolute;       
+         right: 9px;
+         top: 5px;
+      }
+
+      .caption {
+         padding-top: 0px !important;
+      }
+      img,.caption {
+         max-height: 80vh;
+         max-width: 90vw;
+         padding: 20px;
+         border-radius: 30px;
+         @media only screen and (min-width: $smaller-screen) {
+               max-width: 75vw;
+         }
+      }
+   }
+}
+
 .main-content-container {
     @include main-content-container;
     .title {
@@ -16,32 +57,30 @@
         flex-direction: column;
         justify-content: space-between;
         @media only screen and (min-width: $smaller-screen) {
-           flex-wrap: wrap;
-           flex-direction: row;
-         }
-         .image-container {
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+        .image-container {
             position: relative;
-            
-            &:hover { 
-               cursor: pointer;
-               .overlay { display: flex;  }
+            &:hover {
+                cursor: pointer;
+                .overlay {
+                    display: flex;
+                }
             }
-            
             .overlay {
-               display: none;
-               position: absolute;
-               top: 0px;
-               bottom: 0px;
-               left: 0px;
-               right: 0px;
-               background-color: rgba(255, 255, 255, 0.85);
-               
-               align-items: center;
-               justify-content: center;
-
-               .content {
-                  text-align: center;
-               }
+                display: none;
+                position: absolute;
+                top: 0px;
+                bottom: 0px;
+                left: 0px;
+                right: 0px;
+                background-color: rgba(255, 255, 255, 0.85);
+                align-items: center;
+                justify-content: center;
+                .content {
+                    text-align: center;
+                }
             }
             padding: 20px 10px;
             img {
