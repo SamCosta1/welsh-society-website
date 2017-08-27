@@ -37,10 +37,4 @@ body {
    }
 }
 
-.header-banner {
-   background: url("../assets/contact-header.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center center; 
-   height: 160px;
-}
+ @include header-banner ("../assets/contact-header.jpg");

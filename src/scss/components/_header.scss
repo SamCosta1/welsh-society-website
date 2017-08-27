@@ -9,6 +9,16 @@
    }
 }
 
+@mixin header-banner($src) {
+      .header-banner {
+            background: url($src);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center; 
+            height: 180px;
+      }
+}
+
 header {
    display: flex;
    background-color: $theme-col;

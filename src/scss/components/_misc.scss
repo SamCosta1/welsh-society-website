@@ -11,6 +11,25 @@ body {
             margin-top: -100vh;
         }
     }
+
+    .section {
+        width: 75vw;
+        max-width: 1000px;
+    }
+
+    .sub-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .title {
+         font-size: 30px;
+      }
+
+      .text {
+         padding: 20px;
+      }
+    }
 }
 
 @font-face {

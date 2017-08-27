@@ -19,7 +19,6 @@ footer, .footer-overlap {
    
    flex-direction: row;
 
-
    .image { 
       width: 100vw;
       display: flex;
@@ -44,7 +43,6 @@ footer, .footer-overlap {
          width: 100vw;
 
          @media only screen and (min-width: $smaller-screen) and (min-height: 400px) {         
-            width: 75vw;
             padding: 30px;
             flex-direction: row;
             img {

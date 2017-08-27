@@ -22,38 +22,22 @@ body {
    justify-content: flex-start;
    width: 100%;
 
-   .meetings-container {
-
-      .title {
-         font-size: 30px;
-      }
-
-      .text {
-         padding: 20px;
-      }
-
-      .address {
-         text-align: center;
-         font-weight: bold;
-      }
+   .address {
+      text-align: center;
+      font-weight: bold;      
    }
 
    #map-container {
       width: 100%;
       height: 50vh;
-
+      
+      max-height: 350px;
    }
    
 
 }
 
-.header-banner {
-   background: url("../assets/society.png");
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center center; 
-   height: 160px;
-}
+@include header-banner ("../assets/society.png");
 
 .program {
    width: 200px;
