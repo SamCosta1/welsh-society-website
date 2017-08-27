@@ -14,13 +14,7 @@ body {
 }
 
 .main-content-container {
-   background-color: #FFFFFF;
-   flex: 1;   
-   margin-top: -$nav-height;
-   display: flex;
-   flex-direction: column;
-   justify-content: flex-start;
-   width: 100%;
+   @include main-content-container;
 
    .address {
       text-align: center;
@@ -33,13 +27,32 @@ body {
       
       max-height: 350px;
    }
-   
+
+   .left {
+      color: gray;
+      padding: 10px 0px;
+
+      .item {
+         padding-bottom: 3px;
+      }
+
+      i {
+         padding-right: 5px;
+         width: 16px;
+         text-align: center;
+      }
+   }
+
+   .right {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      div {
+         padding-left: 21px;
+      }
+   }
+      
 
 }
 
 @include header-banner ("../assets/society.png");
-
-.program {
-   width: 200px;
-   height: 500px;
-}

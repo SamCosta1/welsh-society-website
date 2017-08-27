@@ -14,13 +14,7 @@ body {
 }
 
 .main-content-container {
-   background-color: #FFFFFF;
-   flex: 1;   
-   margin-top: -$nav-height;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   width: 100%;
+   @include main-content-container;
    
    .address-container {
       padding: 20px;
