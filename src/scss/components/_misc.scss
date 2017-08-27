@@ -1,5 +1,24 @@
 @import '../../../node_modules/purecss/build/pure-min';
 @import '../../../node_modules/purecss/build/grids-responsive';
+
+// Style Constants
+$small-screen: 768px;
+$smaller-screen: 500px;
+
+$theme-col: rgba(255, 255, 255, 0.70);
+$invert-theme-col: rgb(39, 39, 39);
+
+$hover-col: black;
+$invert-hover-col: #dcdcdc;
+
+$text-col: #2D2D2D;
+$invert-text-col: #ffffff;
+
+
+$nav-height: 52px;
+$footer-height: 60px;
+
+
 body {
     margin: 0px !important;
     font-family: 'junctionregular';
@@ -10,6 +29,27 @@ body {
         .main-content-container {
             margin-top: -100vh;
         }
+    }
+
+    .section {
+        @media only screen and (min-width: $smaller-screen) {  
+            width: 75vw;
+            max-width: 1000px;
+        }
+    }
+
+    .sub-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .title {
+         font-size: 30px;
+      }
+
+      .text {
+         padding: 20px;
+      }
     }
 }
 
@@ -32,19 +72,3 @@ img {
 * {
     letter-spacing: 0px !important;
 }
-
-$small-screen: 768px;
-$smaller-screen: 500px;
-
-$theme-col: rgba(255, 255, 255, 0.70);
-$invert-theme-col: rgb(39, 39, 39);
-
-$hover-col: black;
-$invert-hover-col: #dcdcdc;
-
-$text-col: #2D2D2D;
-$invert-text-col: #ffffff;
-
-
-$nav-height: 52px;
-$footer-height: 60px;
