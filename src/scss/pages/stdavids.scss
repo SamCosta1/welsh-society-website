@@ -2,47 +2,64 @@
 @import '../components/header';
 @import '../components/footer';
 .main-content-container {
-   @include main-content-container;
+    @include main-content-container;
+    .title {
+        padding: 20px 10px 0px 10px;
+        font-size: 20px !important;
+        @media only screen and (min-width: $smaller-screen) {
+            font-size: $title-font-size;
+            padding: 20px 0px;
+        }
+    }
+    .images-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        @media only screen and (min-width: $smaller-screen) {
+           flex-wrap: wrap;
+           flex-direction: row;
+         }
+         .image-container {
+            position: relative;
+            
+            &:hover { 
+               cursor: pointer;
+               .overlay { display: flex;  }
+            }
+            
+            .overlay {
+               display: none;
+               position: absolute;
+               top: 0px;
+               bottom: 0px;
+               left: 0px;
+               right: 0px;
+               background-color: rgba(255, 255, 255, 0.85);
+               
+               align-items: center;
+               justify-content: center;
 
-   .title {
-      padding: 20px 10px 0px 10px;
-      font-size: 20px !important;
-
-      @media only screen and (min-width: $smaller-screen) {
-         font-size: $title-font-size;
-         padding: 20px 0px;
-      }
-   }
-
-   .images-container {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-
-      @media only screen and (min-width: $smaller-screen) {
-         flex-wrap: wrap;
-         flex-direction: row;
-      }
-
-      .image-container {
-         padding: 20px 10px;
-
-         img {
-            max-width: 100%;
-            @media only screen and (min-width: $small-screen) {
-               &.sm {
-                     max-height: 245px;
-               }
-               &.md {
-                     max-height: 260px;
-               }
-               &.lg {
-                     max-height: 290px;
+               .content {
+                  text-align: center;
                }
             }
-         }
-      }
-   }
+            padding: 20px 10px;
+            img {
+                max-width: 100%;
+                @media only screen and (min-width: $small-screen) {
+                    &.sm {
+                        max-height: 245px;
+                    }
+                    &.md {
+                        max-height: 260px;
+                    }
+                    &.lg {
+                        max-height: 290px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @include header-banner ("../assets/davids-header.jpg");

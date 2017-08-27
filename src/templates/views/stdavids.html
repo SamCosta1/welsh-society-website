@@ -18,6 +18,11 @@
                <div class="images-container">
                   {{#each item}}
                   <div class="image-container">
+                     {{#if caption}}
+                        <div class="overlay">
+                           <div class="content">{{caption}}</div>
+                        </div>
+                     {{/if}}
                      <img {{#if size}}class="{{size}}"{{/if}} src="../assets/stdavids/{{year}}/{{img}}"></img>
                   </div>
                   {{/each}}
