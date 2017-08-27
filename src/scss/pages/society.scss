@@ -36,6 +36,12 @@
       display: flex;
       justify-content: center;
       flex-direction: column;
+
+      .chair {
+         font-style: italic;
+         color: gray;
+         font-size: 15px;
+      }
       div {
          padding-left: 21px;
       }

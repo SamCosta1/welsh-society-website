@@ -7,30 +7,31 @@
    "details": "Manylion",
    "further-details": "Y Rhaglen a mwy o fanylion oddiwrth",
    "events-title": "Digwyddiadau",
+   "chair-str": "Cadeirydd",
    "events": {
       "2017": [
          {
             "date": "Hydref 13eg",
             "info": [
                "Lluniau y ffotograffydd John Thomas",
-               "Dr John Williams, Lerpwl",
-               "Cadeirydd Mr Rhobet Williams"
-            ]
+               "Dr John Williams, Lerpwl"
+            ],
+            "chair": "Mr Rhobet Williams"
          },
          {
             "date": "Tachwedd 10fed",
             "info": [
                "Cymru a Madagascar",
-               "Y Barch Eleri Edwards",
-               "Cadeirydd Dr Bill Roberts"
-            ]
+               "Y Barch Eleri Edwards"
+            ],
+            "chair": "Dr Bill Roberts"
          },
          {
             "date": "Rhagfyr 8fed",
             "info": [
-               "Noson Nadoligaidd yn nghwmni Glynn, Trefor a Lilian",
-               "Cadeirydd Mrs Eflyn Evans"
-            ]
+               "Noson Nadoligaidd yn nghwmni Glynn, Trefor a Lilian"
+            ],
+            "chair": "Mrs Eflyn Evans"
          }
       ],
       "2018": [
@@ -38,17 +39,17 @@
             "date": "Ionawr 12fed",
             "info": [
                "Profiadau Patagonia",
-               "Mr Ceflyn Burgess, Rhuthun",
-               "Cadeirydd Mr Alan Davies"
-            ]
+               "Mr Ceflyn Burgess, Rhuthun"
+            ],
+            "chair": "Mr Alan Davies"
          },
          {
             "date": "Chwefror 9fed",
             "info": [
                "Deugain mlynedd o gynherddau yn y Coleg Cerdd",
-               "Mr Elwyn Evans, Didsbury",
-               "Cadeirydd Mrs Mair Swift"
-            ]
+               "Mr Elwyn Evans, Didsbury"
+            ],
+            "chair": "Mrs Mair Swift"
          },
          {
             "date": "Chwefror 24ain",
