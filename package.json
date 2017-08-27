@@ -1,6 +1,6 @@
 {
   "name": "welsh-society-website",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Manchester Welsh Society Website",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "watch:template": "node templateEngine.js debug",
     "watch:sass": "chokidar 'src/scss/**/*.scss' -c 'rm src/scss/components/*.css; npm run sass:build'",
     "hot-reload": "cd dist; browser-sync start --server --files \"*/**/*\"",
-    "dev": "npm run build-task:copy-assets; npm-run-all -p watch:*"
+    "dev": "npm run copy-assets; npm-run-all -p watch:*"
   },
   "repository": {
     "type": "git",

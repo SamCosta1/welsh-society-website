@@ -11,16 +11,42 @@
    {{> header}}
    <div class="main-content-container">
       <div class="header-banner"></div>
-      <div class="meetings-container">
-         <div class="description">
+      <div class="sub-container">
+         <div class="section">
             <div class="title text">{{meetings}}</div>
             <div class="text">{{meetings-text}}</div>
             <div class="address text">
                Noddfa Chapel<br> Oaker Avenue<br> West Didsbury<br> M20 2XH.
             </div>
          </div>
+
          <div id="map-container" class=""></div>
-         <div class="description">
+
+         <div class="section">
+            <div class="title text">{{events-title}}</div>
+
+            {{#each events as |list year|}}
+               <div class="subtitle text">{{year}}</div>
+
+               {{#each list}}
+               <div class="pure-g text">
+                  <div class="left pure-u-1 pure-u-md-1-3">
+                     <div class="item"><i class="fa fa-calendar"></i>{{date}}</div>
+                     {{#if time}}<div class="item"><i class="fa fa-clock-o"></i>{{time}}</div>{{/if}}
+                     {{#if location}}<div class="item"><i class="fa fa-map-pin"></i>{{location}}</div>{{/if}}
+                  </div>
+                  <div class="right pure-u-1 pure-u-md-2-3">
+                     {{#each info}}
+                     <div>{{this}}</div>
+                     {{/each}}
+                     {{#if chair}}<div class="chair">{{../../chair-str}}: {{chair}}</div>{{/if}}
+                  </div>
+               </div>
+               {{/each}}
+            {{/each}}
+         </div>
+
+         <div class="section">
             <div class="title text">{{details}}</div>
             <div class="text">{{further-details}} <a href="/{{lang}}/contact.html">Ann Hunt</a></div>
          </div>

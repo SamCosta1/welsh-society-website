@@ -9,6 +9,16 @@
    }
 }
 
+@mixin header-banner($src) {
+      .header-banner {
+            background: url($src);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center; 
+            height: 180px;
+      }
+}
+
 header {
    display: flex;
    background-color: $theme-col;
@@ -43,7 +53,7 @@ header {
 
    .title {
       padding: 8px;
-      font-size: 16px;
+      font-size: 15px;
 
       .left {
          display: flex;
@@ -59,7 +69,7 @@ header {
          margin-right: 5px;
       }
 
-      @media (min-width: 825px) {
+      @media (min-width: 885px) {
          font-size: 20px;
       }
 

@@ -1,26 +1,7 @@
 @import '../../../node_modules/purecss/build/pure-min';
 @import '../../../node_modules/purecss/build/grids-responsive';
-body {
-    margin: 0px !important;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    min-height: 100vh;
-    
-    &.nav-visible {
-        overflow: hidden;
-        .main-content-container {
-            margin-top: -100vh;
-        }
-    }
-}
 
-img {
-    border-radius: 6px;
-}
-    
-* {
-    letter-spacing: 0px !important;
-}
-
+// Style Constants
 $small-screen: 768px;
 $smaller-screen: 500px;
 
@@ -33,6 +14,89 @@ $invert-hover-col: #dcdcdc;
 $text-col: #2D2D2D;
 $invert-text-col: #ffffff;
 
-
 $nav-height: 52px;
 $footer-height: 60px;
+
+$title-font-size: 30px;
+
+@mixin main-content-container {
+    background-color: #FFFFFF;
+    flex: 1;   
+    margin-top: -$nav-height;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
+   height: 100%;
+   min-height: 100vh;
+
+   margin: 0px !important;
+   font-family: 'junctionregular' !important;
+
+   .footer-overlap {
+      display: none;
+   }
+
+    .pure-g [class *= "pure-u"] {
+        font-family: 'junctionregular' !important;
+    }
+    
+    &.nav-visible {
+        overflow: hidden;
+        .main-content-container {
+            margin-top: -100vh;
+        }
+    }
+
+    .section {
+        @media only screen and (min-width: $smaller-screen) {  
+            width: 75vw;
+            max-width: 1000px;
+        }
+    }
+
+    .sub-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .title {
+         font-size: $title-font-size;
+      }
+
+      .subtitle {
+         font-size: 20px;
+      }
+
+      .text {
+         padding: 20px;
+      }
+    }
+}
+
+@font-face {
+    font-family: 'junctionregular';
+    src: url('../assets/Junction-regular-webfont.eot');
+    src: url('../assets/Junction-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/Junction-regular-webfont.woff') format('woff'),
+         url('../assets/Junction-regular-webfont.ttf') format('truetype'),
+         url('../assets/Junction-regular-webfont.svg#junctionregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+img {
+    border-radius: 6px;
+}
+    
+* {
+    letter-spacing: 0px !important;
+}

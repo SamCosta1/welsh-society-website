@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta name="viewport" content="width=device-width" />
+   <link rel="stylesheet" type="text/css" href="../css/stdavids.css"> {{> imports }}
+   <title>{{header.title}}</title>
+</head>
+
+<body>
+   {{> header}}
+   <div class="main-content-container">
+      <div class="header-banner"></div>
+      <div class="sub-container">
+         <div class="section">
+            <div class="title">{{title}}</div>
+            {{#each images as |item year|}}
+            <div class="images-container">
+               {{#each item}}
+               <div class="image-container">
+                  {{#if caption}}
+                  <div class="overlay">
+                     <div class="caption content">{{caption}}</div>
+                  </div>
+                  {{/if}}
+                  <img {{#if size}}class="{{size}}" {{/if}} src="../assets/stdavids/{{year}}/{{img}}"></img>
+               </div>
+               {{/each}}
+            </div>
+            {{/each}}
+         </div>
+      </div>
+   </div>
+
+   <div class="popup-container">
+      <div class="popup">
+         <div class="close fa fa-close"></div>
+         <img></img>
+         <div class="caption"></div>
+      </div>
+   </div>
+
+   {{> footer}}
+</body>
+
+<script>
+   $(document).ready(setupClickListener);
+
+   function setupClickListener() {
+      var $popup = $('.popup-container');
+      var $popupImg = $popup.find('img');
+      var $popupText = $popup.find('.caption');
+      var $close = $popup.find('.close');
+
+      $('.image-container').click(function (event) {
+         var $target = $(event.target)
+         var src = $target.is('img') ? $target.attr('src') : $($target.siblings('img')[0]).attr('src');
+
+         $popupText.text($target.parent().find('.caption').text());
+         $popupImg.attr('src', src);
+         $popup.addClass('visible');
+      });
+
+      // Close popup on clicks outside of it
+      $popup.click(function(e) {
+         if (e.target == $popup[0]) {
+            close();
+         }
+      });
+
+      $close.click(close);
+
+      function close() {
+         $popupText.text('');
+         $popup.removeClass('visible');
+      }
+
+   }
+
+</script>
+
+</html>
