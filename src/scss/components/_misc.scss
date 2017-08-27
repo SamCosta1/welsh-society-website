@@ -14,9 +14,10 @@ $invert-hover-col: #dcdcdc;
 $text-col: #2D2D2D;
 $invert-text-col: #ffffff;
 
-
 $nav-height: 52px;
 $footer-height: 60px;
+
+$title-font-size: 30px;
 
 @mixin main-content-container {
     background-color: #FFFFFF;
@@ -28,16 +29,24 @@ $footer-height: 60px;
     width: 100%;
 }
 
-
 body {
-    margin: 0px !important;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
 
-    font-family: 'junctionregular' !important;
+   height: 100%;
+   min-height: 100vh;
+
+   margin: 0px !important;
+   font-family: 'junctionregular' !important;
+
+   .footer-overlap {
+      display: none;
+   }
 
     .pure-g [class *= "pure-u"] {
         font-family: 'junctionregular' !important;
     }
-    min-height: 100vh;
     
     &.nav-visible {
         overflow: hidden;
@@ -59,7 +68,7 @@ body {
       align-items: center;
 
       .title {
-         font-size: 30px;
+         font-size: $title-font-size;
       }
 
       .subtitle {
