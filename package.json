@@ -1,6 +1,6 @@
 {
   "name": "welsh-society-website",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Manchester Welsh Society Website",
   "main": "index.js",
   "scripts": {
