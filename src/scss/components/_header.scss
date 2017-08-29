@@ -21,7 +21,7 @@
 
 header {
    display: flex;
-   background-color: $theme-col;
+   background-color: rgba($theme-col, 0.83);
    z-index: 1;
    justify-content: space-between;
    flex-direction: column;
