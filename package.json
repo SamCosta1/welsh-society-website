@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/SamCosta1/welsh-society-website#readme",
   "dependencies": {
+    "curl": "^0.1.4",
     "font-awesome": "^4.7.0",
     "fs-extra": "^4.0.1",
     "handlebars": "^4.0.10",
@@ -40,5 +41,9 @@
     "node-sass-chokidar": "0.0.3",
     "npm-run-all": "^4.0.2",
     "postcss-cli": "^4.1.0"
+  },
+  "cms_data_config": {
+    "firebase_url": "https://welsh-society.firebaseio.com/",
+    "data_directory": "./dist"
   }
 }
