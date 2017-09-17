@@ -46,6 +46,7 @@ function fetchFromFirebase(createCache) {
    return new Promise((resolve, reject) => {
       curl.get(config[FIREBASE_KEY] + '.json', {}, (err, response, body) => {
          if (err) reject(err);
+         body = JSON.parse(body);
          if (createCache) writeToCache(body);
          resolve(body);
       });
@@ -57,14 +58,13 @@ function loadLocalCache() {
       fs.readFile(dataPath, 'utf-8', (err, data) => {
          if (err) reject(err);
 
-         resolve(data);
+         resolve(JSON.parse(data));
       });
    });
 }
 
 function writeToCache(body) {
-   const json = JSON.parse(body);
-   fs.writeFile(dataPath, JSON.stringify(json, null, 3), (err) => {
+   fs.writeFile(dataPath, JSON.stringify(body, null, 3), (err) => {
       if (err) throw err;
    });
 }

@@ -3,17 +3,9 @@
   "version": "1.1.1",
   "description": "Manchester Welsh Society Website",
   "main": "index.js",
-  "scripts": {
-    "build-task:template": "node templateEngine.js; npm run copy-assets",
-    "build-task:scss-compile": "node-sass-chokidar --source-map true src/scss/pages -o dist/css",
-    "build-task:scss-autoprefixer": "postcss dist/css/*.css --use autoprefixer -d dist/css",
-    "copy-assets": "rm -rf dist/assets; cp -r src/assets dist/assets",
-    "sass:build": "npm-run-all -p build-task:scss-*",
-    "build": "npm-run-all -p build-task:*",
-    "watch:template": "node templateEngine.js debug",
-    "watch:sass": "chokidar 'src/scss/**/*.scss' -c 'rm src/scss/components/*.css; npm run sass:build'",
-    "hot-reload": "cd dist; browser-sync start --server --files \"*/**/*\"",
-    "dev": "npm run copy-assets; npm-run-all -p watch:*"
+  "scripts": {    
+    "build": "gulp deploy",
+    "dev": "gulp"
   },
   "repository": {
     "type": "git",
@@ -29,6 +21,11 @@
     "curl": "^0.1.4",
     "font-awesome": "^4.7.0",
     "fs-extra": "^4.0.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^3.8.0",
+    "gulp-if": "^2.0.2",
+    "gulp-sass": "^3.1.0",
     "handlebars": "^4.0.10",
     "language-templating": "git+https://github.com/SamCosta1/language-templating.git",
     "node-watch": "^0.5.5",
