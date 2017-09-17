@@ -56,7 +56,6 @@ function loadLocalCache() {
    return new Promise((resolve, reject) => {
       fs.readFile(dataPath, 'utf-8', (err, data) => {
          if (err) reject(err);
-         console.log(dataPath);
 
          resolve(data);
       });
