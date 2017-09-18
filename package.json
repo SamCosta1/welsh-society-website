@@ -42,9 +42,9 @@
     "postcss-cli": "^4.1.0"
   },
   "cms_data_config": {
-    "firebase_url": "https://welsh-society.firebaseio.com/",
-    "firebase_data_endpoint": "/site-data",
-    "data_directory": ".",
-    "access-key-file": "firebase-access-key.json"
+    "firebase_data_endpoint": "site-data",
+    "firebase_access_key_file": "./firebase-access-info.json",
+    "firebase_config_file": "./firebase-config.js",
+    "data_directory": "."
   }
 }

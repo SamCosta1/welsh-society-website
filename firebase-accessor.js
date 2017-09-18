@@ -1,23 +1,25 @@
 const ROOT_KEY = 'cms_data_config';
 const fs = require('fs-extra'),
-      curl = require('curl'),
+      firebase = require('firebase'),
       config = require('./package.json')[ROOT_KEY],
       url = require('url'),
       path = require('path');
 
-const FIREBASE_KEY = 'firebase_url',
-      DATA_ENDPOINT_KEY = 'firebase_data_endpoint',
+const DATA_ENDPOINT_KEY = 'firebase_data_endpoint',
       DIRECTORY_KEY = 'data_directory',
       DATA_FILENAME = 'data.json',
-      FIREBASE_ACCESS_TOKEN_KEY = 'access-key-file',
-      FIREBASE_ENDPOINT = url.resolve(config[FIREBASE_KEY], config[DATA_ENDPOINT_KEY]) + '.json';
+      FIREBASE_ACCESS_TOKEN_KEY = 'firebase_access_key_file',
+      FIREBASE_CONFIG_KEY = 'firebase_config_file',
+      FIREBASE_SITEDATA_ENDPOINT = config[DATA_ENDPOINT_KEY];
 
 if (config === null  || config === undefined
-                     || !config.hasOwnProperty(FIREBASE_KEY)
+                     || !config.hasOwnProperty(FIREBASE_ACCESS_TOKEN_KEY)
+                     || !config.hasOwnProperty(FIREBASE_CONFIG_KEY)
                      || !config.hasOwnProperty(DIRECTORY_KEY)) {
    throw `Missing information, please ensure your package json contains the following attributes
    "${ROOT_KEY}": {
-      "${FIREBASE_KEY}": "<your firebase url>",
+      "${FIREBASE_CONFIG_KEY}": "<directory to save data e.g ./dist>",
+      "${FIREBASE_ACCESS_TOKEN_KEY}": "<directory to save data e.g ./dist>",
       "${DIRECTORY_KEY}": "<directory to save data e.g ./dist>"
    }`;
 
@@ -38,24 +40,25 @@ module.exports.getData = (discardCache = false, createCache = true) => {
 }
 
 module.exports.pushLocalToFirebase = () => {
-   var accessToken;
-   try {
-      accessToken = require('./' + config[FIREBASE_ACCESS_TOKEN_KEY]);
-
-   } catch (e) {
-      throw 'No access key found, generate a private key in firebase and store it in your project root in a file called ' +
-         config[FIREBASE_ACCESS_TOKEN_KEY];
-   }
-
-   loadLocalCache().then(data => {
-      curl.put(FIREBASE_ENDPOINT, JSON.stringify(data), (err, response, body) => {
-         console.log(body);
-      });
-   }).catch(err => { throw err });
+   initFirebase();
+   authenticateFirebase().then(() => {
+      loadLocalCache().then(data => {
+      firebase.database().ref(FIREBASE_SITEDATA_ENDPOINT).set(data)
+            .then(() => { process.exit() })
+            .catch(err => { throw err; });
+      }).catch(err => { throw err });
+   });
 }
 
-function fetchFromFirebase() {
-   return "ginjerogijrgoij";
+function initFirebase() {
+   const firebaseConfig = require(config[FIREBASE_CONFIG_KEY]).config;
+   firebase.initializeApp(firebaseConfig);
+}
+
+function authenticateFirebase() {
+   const firebaseAuthConfig = require(config[FIREBASE_ACCESS_TOKEN_KEY])
+   return firebase.auth().signInWithEmailAndPassword(firebaseAuthConfig.email, firebaseAuthConfig.password)
+               .catch(err => { throw err });
 }
 
 function cacheExists() {  
@@ -63,20 +66,19 @@ function cacheExists() {
 }
 
 function fetchFromFirebase(createCache) {
+   initFirebase();
    return new Promise((resolve, reject) => {
 
-      curl.get(FIREBASE_ENDPOINT, {}, (err, response, body) => {
-         if (err) reject(err);
-         body = JSON.parse(body);
-         if (createCache) writeToCache(body);
-         resolve(body);
-      });
+      firebase.database().ref(FIREBASE_SITEDATA_ENDPOINT).once('value').then(snapshot => {         
+         if (createCache) writeToCache(snapshot.val());
+
+         resolve(snapshot.val());
+      }).catch(err => { throw err });
    });
 }
 
 function loadLocalCache() {
    return new Promise((resolve, reject) => {
-         console.log(dataPath);
       fs.readFile(dataPath, 'utf-8', (err, data) => {
          if (err) reject(err);
 
