@@ -40,17 +40,19 @@ gulp.task('copy-index', () => {
    fs.copySync(`${SRC}/index.html`, `${DIST}/index.html`);
 });
 
-gulp.task('compile-templates', () => {
+gulp.task('compile-templates', (cb) => {
+      
    firebaseAccessor.getData(deploy, true)
-      .then(data => { templateEngine.reCompile(data); })
+      .then(data => { 
+         templateEngine.reCompile(data);  
+         process.exit();  // HACK: Does all the other tasks then exits after this one
+      })
       .catch(err => { throw err });
+   return;
 });
 
-gulp.task('default', () => {
-   gulp.start('styles');
-   gulp.start('copy-assets');
+gulp.task('default', ['styles', 'copy-assets', 'copy-index'], () => {
    gulp.start('compile-templates');
-   gulp.start('copy-index');
 });
 
 gulp.task('deploy', () => {
