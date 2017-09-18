@@ -3,7 +3,7 @@
   "version": "1.1.1",
   "description": "Manchester Welsh Society Website",
   "main": "index.js",
-  "scripts": {    
+  "scripts": {
     "build": "gulp deploy",
     "dev": "gulp"
   },
@@ -19,28 +19,32 @@
   "homepage": "https://github.com/SamCosta1/welsh-society-website#readme",
   "dependencies": {
     "curl": "^0.1.4",
+    "firebase": "^4.3.1",
     "font-awesome": "^4.7.0",
     "fs-extra": "^4.0.1",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
-    "gulp-clean-css": "^3.8.0",
-    "gulp-if": "^2.0.2",
-    "gulp-sass": "^3.1.0",
     "handlebars": "^4.0.10",
     "language-templating": "git+https://github.com/SamCosta1/language-templating.git",
     "node-watch": "^0.5.5",
-    "purecss": "^1.0.0"
+    "purecss": "^1.0.0",
+    "url": "^0.11.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
     "browser-sync": "^2.18.13",
     "chokidar-cli": "^1.2.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^3.8.0",
+    "gulp-if": "^2.0.2",
+    "gulp-sass": "^3.1.0",
     "node-sass-chokidar": "0.0.3",
     "npm-run-all": "^4.0.2",
     "postcss-cli": "^4.1.0"
   },
   "cms_data_config": {
     "firebase_url": "https://welsh-society.firebaseio.com/",
-    "data_directory": "./dist"
+    "firebase_data_endpoint": "/site-data",
+    "data_directory": ".",
+    "access-key-file": "firebase-access-key.json"
   }
 }

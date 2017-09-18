@@ -1,6 +1,7 @@
 'use strict'
 
-const Handlebars = require('handlebars');
+const Handlebars = require('handlebars'),
+      fs = require('fs-extra');
 
 const views = './src/templates';
 const dist = './dist';
@@ -23,7 +24,6 @@ module.exports.reCompile = (data) => {
 
   registerAllPartials();  
   readMainTemplates();
-
 }
 
 function createDirs() {  
@@ -42,10 +42,7 @@ function createDirs() {
 
 function registerAllPartials() {
   fs.readdir(partials, (err, files) => {
-    files.forEach(file => { // For each file in the partials directory, register the partial        
-      registerPartials(file);      
-    });
-    
+    files.forEach(file => { registerPartials(file); });  // For each file in the partials directory, register the partial   
   });
 }
 

@@ -1,13 +1,16 @@
-const ROOT_KEY = 'cms_data_config',
-      FIREBASE_KEY = 'firebase_url',
-      DIRECTORY_KEY = 'data_directory',
-      DATA_FILENAME = 'data.json';
-
+const ROOT_KEY = 'cms_data_config';
 const fs = require('fs-extra'),
       curl = require('curl'),
       config = require('./package.json')[ROOT_KEY],
+      url = require('url'),
       path = require('path');
-      
+
+const FIREBASE_KEY = 'firebase_url',
+      DATA_ENDPOINT_KEY = 'firebase_data_endpoint',
+      DIRECTORY_KEY = 'data_directory',
+      DATA_FILENAME = 'data.json',
+      FIREBASE_ACCESS_TOKEN_KEY = 'access-key-file',
+      FIREBASE_ENDPOINT = url.resolve(config[FIREBASE_KEY], config[DATA_ENDPOINT_KEY]) + '.json';
 
 if (config === null  || config === undefined
                      || !config.hasOwnProperty(FIREBASE_KEY)
@@ -34,6 +37,23 @@ module.exports.getData = (discardCache = false, createCache = true) => {
    }
 }
 
+module.exports.pushLocalToFirebase = () => {
+   var accessToken;
+   try {
+      accessToken = require('./' + config[FIREBASE_ACCESS_TOKEN_KEY]);
+
+   } catch (e) {
+      throw 'No access key found, generate a private key in firebase and store it in your project root in a file called ' +
+         config[FIREBASE_ACCESS_TOKEN_KEY];
+   }
+
+   loadLocalCache().then(data => {
+      curl.put(FIREBASE_ENDPOINT, JSON.stringify(data), (err, response, body) => {
+         console.log(body);
+      });
+   }).catch(err => { throw err });
+}
+
 function fetchFromFirebase() {
    return "ginjerogijrgoij";
 }
@@ -44,7 +64,8 @@ function cacheExists() {
 
 function fetchFromFirebase(createCache) {
    return new Promise((resolve, reject) => {
-      curl.get(config[FIREBASE_KEY] + '.json', {}, (err, response, body) => {
+
+      curl.get(FIREBASE_ENDPOINT, {}, (err, response, body) => {
          if (err) reject(err);
          body = JSON.parse(body);
          if (createCache) writeToCache(body);
@@ -55,6 +76,7 @@ function fetchFromFirebase(createCache) {
 
 function loadLocalCache() {
    return new Promise((resolve, reject) => {
+         console.log(dataPath);
       fs.readFile(dataPath, 'utf-8', (err, data) => {
          if (err) reject(err);
 
