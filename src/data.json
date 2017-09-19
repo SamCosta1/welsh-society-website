@@ -247,7 +247,7 @@
                   "size": "sm"
                },
                {
-                  "caption": "Elfair Grug Dyer, harp (winner of the Blue Riband instrumental competition at the National Eisteddfod2013)",
+                  "caption": "Elfair Grug Dyer, harp (winner of the Blue Riband instrumental competition at the National Eisteddfod 2013)",
                   "img": "Elfair.jpg",
                   "size": "sm"
                },
@@ -590,6 +590,229 @@
                   "caption": "Hen Wlad Fy Nhadau",
                   "img": "2017-11.jpg"
                }
+            ],
+            "2016": [
+               {
+                  "caption": "Côr Seiriol dan arweiniad Gwennant Pyrs",
+                  "img": "2016-2.jpg"
+               },
+               {
+                  "caption": "Côr Meibion y Brythoniaid a'u herweinydd John Eifion in full voice!",
+                  "img": "2016-3.jpg"
+               },
+               {
+                  "caption": "Deuawd o'r Coleg Cerdd, Chloe Roberts and Alice Roberts",
+                  "img": "2016-5.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Chloe and Alice gyda ysgrifennydd cerdd Elwyn Evans",
+                  "img": "2016-4.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Hen Wlad Fy Nhadau",
+                  "img": "2016-1.jpg"
+               }
+            ],
+            "2015": [
+               {
+                  "caption": "Côr Godre'r Aran a'i harweinydd Eirian Owen",
+                  "img": "2015-1.jpg"
+               },
+               {
+                  "img": "2015-2.jpg",
+                  "size": "sm"
+               },
+               {
+                  "img": "2015-3.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Unawdydd Meinir Wyn Roberts a'i chyfeilydd Michael Davies",
+                  "img": "2015-4.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Hen Wlad fy Nhadau",
+                  "img": "2015-5.jpg"
+               }
+            ],
+            "2014": [
+               {
+                  "caption": "Eglwys Emmanuel",
+                  "img": "church.jpg",
+                  "size": "sm"
+               },
+               {
+                  "caption": "Côr Gore Glas (côr cymysg o Fachynlleth",
+                  "img": "corgoreglas.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Michaela Parry, mezzo-soprano (enillydd ein Gwobr 2013 yn y Coleg Cerdd)",
+                  "img": "michaela.jpg",
+                  "size": "sm"
+               },
+               {
+                  "caption": "Elfair Grug Dyer, telyn (ennillydd y Rhuban Glas Offerynol yn yr Eisteddfod Genedlaethol 2013)",
+                  "img": "Elfair.jpg",
+                  "size": "sm"
+               },
+               {
+                  "img": "2014-1.jpg",
+                  "size": "md"
+               },
+               {
+                  "img": "2014-2.jpg",
+                  "size": "md"
+               },
+               {
+                  "img": "2014-3.jpg"
+               },
+               {
+                  "img": "2014-4.jpg",
+                  "size": "md"
+               },
+               {
+                  "img": "2014-5.jpg",
+                  "size": "sm"
+               },
+               {
+                  "img": "2014-6.jpg",
+                  "size": "md"
+               },
+               {
+                  "img": "2014-7.jpg",
+                  "size": "md"
+               }
+               
+            ],
+            "2013": [
+               {
+                  "caption": "Côr Meibion Trelawnyd",
+                  "img": "2013-1.jpg"
+               },
+               {
+                  "caption": "Ymarferion yn y Coleg Cerdd",
+                  "img": "2013-2.jpg"
+               },
+               {
+                  "img": "2013-3.jpg",
+                  "size": "sm"
+               },
+               {
+                  "img": "2013-4.jpg",
+                  "size": "sm"
+               },
+               {
+                  "img": "2013-5.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Catrin Woodruff - Soprano, enillydd gwobr ganu Cymdeithas Cymry Manceinion 2012",
+                  "img": "2013-6.jpg",
+                  "size": "sm"
+               },
+               {
+                  "caption": "Annette Bryn Parri",
+                  "img": "2013-7.jpg",
+                  "size": "md"
+               },
+               {
+                  "img": "2013-8.jpg",
+                  "size": "md"
+               },
+               {
+                  "img": "2013-9.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "John Hosking",
+                  "img": "2013-10.jpg",
+                  "size": "sm"
+               },
+               {
+                  "img": "2013-11.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Dilwyn Price (arweinydd)",
+                  "img": "2013-12.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Hen Wlad fy Nhadau",
+                  "img": "2013-13.jpg",
+                  "size": "md"
+               }               
+            ],
+            "2012": [
+               {
+                  "caption": "Côr Meibion y Rhos o dan arweiniad Aled Phillips",
+                  "img": "2012-1.jpg"
+               },
+               {
+                  "caption": "Unawdwyr Meinir Wyn ac Elgan Llyr a'u cyfeilydd James Vaughan",
+                  "img": "2012-2.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Elgan Llyr Thomas, enillydd gwobr ganu Cymdeithas Cymry Manceinion 2011",
+                  "img": "2012-3.jpg",
+                  "size": "sm"
+               },
+               {
+                  "caption": "Meinir and Elgan yn canu'r ddeuawd \"Hywel a Blodwen\"",
+                  "img": "2012-4.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Alice Roberts o Ysgol Gynradd y Coleg Cerdd, un o ddisgyblio Eira Lynn Jones",
+                  "img": "2012-5.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Hen Wlad fy Nhadau",
+                  "img": "2012-6.jpg"               
+               }
+            ],
+            "2011": [
+               {
+                  "caption": "Côr Meibion y Brythoniad o dan arweiniad John Eifion",
+                  "img": "2011-1.jpg"           
+               },
+               {
+                  "caption": "Michael Davies wrth y piano",
+                  "img": "2011-2.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Lorna James a'i chyfeilydd David Jones",
+                  "img": "2011-3.jpg",
+                  "size": "md"
+               }
+            ],
+            "2010": [
+               {
+                  "caption": "Côr Ysgol Glanaethwy o dan Cefin Roberts",
+                  "img": "young choir1_opt.jpg"
+               },
+               {
+                  "caption": "Côr Meibion Caernarfon gyda'u arweinydd Delyth Humphreys",
+                  "img": "caernarfon_opt.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Alaw Tecwyn gyda Elwyn Evans, ysgrifennydd cerdd",
+                  "img": "Elwynandsinger_opt.jpg",
+                  "size": "sm"
+               },
+               {
+                  "caption": "Elfair Grug Dyer",
+                  "img": "harp.jpg",
+                  "size": "sm"
+               }               
             ]
          },
          "lang": "en",
