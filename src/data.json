@@ -1,0 +1,406 @@
+{
+   "en": {
+      "chapels": {
+         "chapels": "yes",
+         "current": "chapels",
+         "lang": "en",
+         "learning": "If you are interested, please contact Mrs Lilian Garrett: tel. 0161 969 4351",
+         "learning-title": "Learning Welsh?",
+         "p1": "There are two Welsh churches in the Manchester area, both belonging to the Presbyterian Church of Wales, one in Altrincham and the other in West Didsbury. Joint services are held on Sundays, either at Altrincham (10.30 am) or West Didsbury (2.30 pm), at which visitors would be warmly welcome. To avoid disappointment, please check in advance which location is being used on any particular Sunday. ",
+         "p2": "The Rev. Eleri Edwards, our minister for the past few years, still continues to serve the Welsh community in a voluntary capacity. Visiting ministers from Wales also come to take services from time to time.",
+         "p3": "Services are held every Sunday at ONE of the two locations below:",
+         "title": "Chapels"
+      },
+      "contact": {
+         "concert-sec": "Concert Secretary",
+         "contact": "yes",
+         "current": "contact",
+         "email": "e-mail",
+         "lang": "en",
+         "minister": "Minister",
+         "secretary": "Society Secretary",
+         "tel": "Telephone",
+         "title": "Contact"
+      },
+      "footer": {
+         "lang": "en",
+         "otherLang": "we",
+         "otherLangName": "Cymraeg"
+      },
+      "header": {
+         "chapels": "Chapels",
+         "contact": "Contact Us",
+         "home": "Home",
+         "society": "Society",
+         "stdavids": "St David's Day",
+         "title": "Manchester Welsh Society"
+      },
+      "index": {
+         "current": "index",
+         "index": "yes",
+         "intro1": "We are an active group of exiles striving to preserve our heritage and preserving our language by means of literary meetings, concerts and Christian worship.",
+         "intro2": "Makes you nostalgic?",
+         "intro3": "Visit this page regularly to find out what is going on.",
+         "lang": "en",
+         "title": "Manchester Welsh Society",
+         "welcome": "Welcome"
+      },
+      "society": {
+         "chair-str": "Chair",
+         "current": "society",
+         "details": "Details",
+         "events": {
+            "2017": [
+               {
+                  "chair": "Mr Rhobet Williams",
+                  "date": "October 13th",
+                  "info": [
+                     "Photographs by John Thomas",
+                     "Dr John Williams, Liverpool"
+                  ]
+               },
+               {
+                  "chair": "Dr Bill Roberts",
+                  "date": "November 10th",
+                  "info": [
+                     "Wales and Madagascar",
+                     "Reverend Eleri Edwards"
+                  ]
+               },
+               {
+                  "chair": "Mrs Eflyn Evans",
+                  "date": "December 8th",
+                  "info": [
+                     "Christmasy evening with Glynn, Trefor a Lilian"
+                  ]
+               }
+            ],
+            "2018": [
+               {
+                  "chair": "Mr Alan Davies",
+                  "date": "January 12th",
+                  "info": [
+                     "Patagonia Experiences",
+                     "Mr Ceflyn Burgess, Rhuthun"
+                  ]
+               },
+               {
+                  "chair": "Mrs Mair Swift",
+                  "date": "Febuary 9th",
+                  "info": [
+                     "Forty years of concerts in the Music College",
+                     "Mr Elwyn Evans, Didsbury"
+                  ]
+               },
+               {
+                  "date": "Febuary 24th",
+                  "info": [
+                     "St David's day concert",
+                     "Ger y Ffin Choir"
+                  ],
+                  "location": "Royal Northern College of Music",
+                  "time": "7:00pm"
+               },
+               {
+                  "date": "May 11th",
+                  "info": [
+                     "Annual general meeting"
+                  ],
+                  "location": "Noddfa Oaker Avenue",
+                  "time": "7:30pm"
+               }
+            ]
+         },
+         "events-title": "Events",
+         "further-details": "Programme and further details may be obtained from ",
+         "lang": "en",
+         "meetings": "Meetings",
+         "meetings-text": "Regular meetings are held, on the second Friday of the month from October to February at",
+         "society": "yes",
+         "title": "Society"
+      },
+      "stdavids": {
+         "current": "stdavids",
+         "davids": "yes",
+         "lang": "en",
+         "title": "St David's Day Concert",
+         "images": {
+            "2017": [
+               {
+                  "caption": "Caernarfon male voice choir with conductor Delyth Humphreys, pianist; Mona Meirion Richards",
+                  "img": "2017-3.jpg"
+               },
+               {
+                  "caption": "Mair Jones, Robart Arwyn, Delyth Humphreys and Mona Meirion Richards",
+                  "img": "2017-1.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "John Ieuan Jones - Baritone",
+                  "img": "2017-4.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Chloe Roberts - Harp",
+                  "img": "2017-5.jpg",
+                  "size": "md"
+               },
+               {
+                  "img": "2017-2.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Iwan Owen - Piano",
+                  "img": "2017-6.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Ruthun choir and conductor Robat Arwyn",
+                  "img": "2017-7.jpg"
+               },
+               {
+                  "caption": "John Ieuan Jones",
+                  "img": "2017-8.jpg",
+                  "size": "sm"
+               },
+               {
+                  "caption": "John Ieuan Jones and Chloe Roberts",
+                  "img": "2017-9.jpg",
+                  "size": "sm"
+               },
+               {
+                  "caption": "John Ieuan Jones",
+                  "img": "2017-10.jpg",
+                  "size": "sm"
+               },
+               {
+                  "caption": "Ieuan, Chole and Iwan",
+                  "img": "2017-12.jpg",
+                  "size": "sm"
+               },
+               {
+                  "caption": "Hen Wlad Fy Nhadau",
+                  "img": "2017-11.jpg"
+               }
+            ],
+
+            "2016": [
+               {
+                  "caption": "Côr Seiriol and their conductor Gwennant Pyrs",
+                  "img": "2016-2.jpg"
+               },
+               {
+                  "caption": "Côr Meibion y Brythoniaid with conductor John Eifion in full voice!",
+                  "img": "2016-3.jpg"
+               },
+               {
+                  "caption": "Harpists from the RNCM Chloe Roberts and Alice Roberts",
+                  "img": "2016-5.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Chloe and Alice with concert secretary Elwyn Evans",
+                  "img": "2016-4.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Hen Wlad Fy Nhadau",
+                  "img": "2016-1.jpg"
+               }
+            ],
+            "2015": [
+               {
+                  "caption": ""
+               }
+            ]
+         }
+      }
+   },
+   "we": {
+      "chapels": {
+         "chapels": "yes",
+         "current": "chapels",
+         "lang": "en",
+         "learning": "Os oes gennych ddiddordeb, cysylltwch â Mrs Lilian Garrett: ffôn. 0161 969 4351",
+         "learning-title": "Dysgu Cymraeg?",
+         "p1": "Mae dwy eglwys Gymraeg yn ardal Manceinion, yn perthyn i Eglwys Bresbyteraidd Cymru, un yn Altrincham a'r llall yn West Didsbury. gwasanaethau ar y cyd yn cael eu cynnal ar ddydd Sul, naill ai yn Altrincham (10.30 am) neu West Didsbury (2:30 pm), lle byddai'r ymwelydd yn cael ei groesawu'n fawr. Er mwyn osgoi cael eich siomi, gwiriwch o flaen llaw pa leoliad sydd yn cael ei ddefnyddio ar unrhyw ddydd Sul penodol.",
+         "p2": "Mae y Barch Eleri Edwards, ein gweinidog yn ystod y blynyddoedd diwethaf, wedi ymddeol ond yn parhau i wasanaethu'r gymuned Gymreig yn wirfoddol. Mae gweinidogion o Gymru hefyd yn dod i gymryd gwasanaethau o bryd i'w gilydd.",
+         "p3": "Mae gwasanaethau'n cael eu cynnal bob dydd Sul yn UN o'r ddau leoliad isod:",
+         "title": "Capeli"
+      },
+      "contact": {
+         "concert-sec": "Ysgifennydd Cerdd",
+         "contact": "yes",
+         "current": "contact",
+         "email": "e-bost",
+         "lang": "we",
+         "minister": "Gweinidog",
+         "secretary": "Ysgifennydd Cyffredinol",
+         "tel": "ffôn",
+         "title": "Cysylltwch â Ni"
+      },
+      "footer": {
+         "lang": "we",
+         "otherLang": "en",
+         "otherLangName": "English"
+      },
+      "header": {
+         "chapels": "Capeli",
+         "contact": "Cysylltwch â Ni",
+         "home": "Hafan",
+         "society": "Cymdeithas",
+         "stdavids": "Gwyl Ddewi",
+         "title": "Cymdeithas Cymry Manceinion"
+      },
+      "index": {
+         "current": "index",
+         "index": "yes",
+         "intro1": "Cwmni ydym o alltud Cymraeg yn ceisio cadw ein traddodiadau a'n hiaith yn fyw drwy gynnal cyfarfodydd llenyddol, cyngherddau a thrwy addoliad Cristnogol.",
+         "intro2": "Codi hiraeth arnoch?",
+         "intro3": "Cofiwch ymweld a'r wefan hon yn gyson i ddarganfod mwy am beth sy'n mynd ymlaen.",
+         "lang": "we",
+         "title": "Cymdeithas Cymry Manceinion",
+         "welcome": "Croeso"
+      },
+      "society": {
+         "chair-str": "Cadeirydd",
+         "current": "society",
+         "details": "Manylion",
+         "events": {
+            "2017": [
+               {
+                  "chair": "Mr Rhobet Williams",
+                  "date": "Hydref 13eg",
+                  "info": [
+                     "Lluniau y ffotograffydd John Thomas",
+                     "Dr John Williams, Lerpwl"
+                  ]
+               },
+               {
+                  "chair": "Dr Bill Roberts",
+                  "date": "Tachwedd 10fed",
+                  "info": [
+                     "Cymru a Madagascar",
+                     "Y Barch Eleri Edwards"
+                  ]
+               },
+               {
+                  "chair": "Mrs Eflyn Evans",
+                  "date": "Rhagfyr 8fed",
+                  "info": [
+                     "Noson Nadoligaidd yn nghwmni Glynn, Trefor a Lilian"
+                  ]
+               }
+            ],
+            "2018": [
+               {
+                  "chair": "Mr Alan Davies",
+                  "date": "Ionawr 12fed",
+                  "info": [
+                     "Profiadau Patagonia",
+                     "Mr Ceflyn Burgess, Rhuthun"
+                  ]
+               },
+               {
+                  "chair": "Mrs Mair Swift",
+                  "date": "Chwefror 9fed",
+                  "info": [
+                     "Deugain mlynedd o gynherddau yn y Coleg Cerdd",
+                     "Mr Elwyn Evans, Didsbury"
+                  ]
+               },
+               {
+                  "date": "Chwefror 24ain",
+                  "info": [
+                     "Cyngerdd Gŵyl Ddewi",
+                     "Côr Ger y Ffin"
+                  ],
+                  "location": "Royal Northern College of Music",
+                  "time": "7:00yh"
+               },
+               {
+                  "date": "Mai 11eg",
+                  "info": [
+                     "Cyfarfod Blynyddol"
+                  ],
+                  "location": "Noddfa Oaker Avenue",
+                  "time": "7:30yh"
+               }
+            ]
+         },
+         "events-title": "Digwyddiadau",
+         "further-details": "Y Rhaglen a mwy o fanylion oddiwrth",
+         "lang": "en",
+         "meetings": "Cyfarfodydd",
+         "meetings-text": "Cynhelir y cyfarfodydd ar yr ail nos Wener o'r mis, o fis Hydref hyd at fis Chwefror yng",
+         "society": "yes",
+         "title": "Cymdeithas"
+      },
+      "stdavids": {
+         "current": "stdavids",
+         "davids": "yes",
+         "images": {
+            "2017": [
+               {
+                  "caption": "Côr Meibion Caernarfon o dan arweinedd Delyth Humphreys, cyfeilydd Mona Meirion Richards",
+                  "img": "2017-3.jpg"
+               },
+               {
+                  "caption": "Mair Jones, Robart Arwyn, Delyth Humphreys a Mona Meirion Richards",
+                  "img": "2017-1.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "John Ieuan Jones - baritone",
+                  "img": "2017-4.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Chloe Roberts - Telyn",
+                  "img": "2017-5.jpg",
+                  "size": "md"
+               },
+               {
+                  "img": "2017-2.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Iwan Owen - piano",
+                  "img": "2017-6.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Côr Ruthun a'u harweinydd Robat Arwyn",
+                  "img": "2017-7.jpg"
+               },
+               {
+                  "caption": "John Ieuan Jones",
+                  "img": "2017-8.jpg",
+                  "size": "sm"
+               },
+               {
+                  "caption": "John Ieuan Jones a Chloe Roberts",
+                  "img": "2017-9.jpg",
+                  "size": "sm"
+               },
+               {
+                  "caption": "John Ieuan Jones",
+                  "img": "2017-10.jpg",
+                  "size": "sm"
+               },
+               {
+                  "caption": "Ieuan, Chole ac Iwan",
+                  "img": "2017-12.jpg",
+                  "size": "sm"
+               },
+               {
+                  "caption": "Hen Wlad Fy Nhadau",
+                  "img": "2017-11.jpg"
+               }
+            ]
+         },
+         "lang": "en",
+         "title": "Cyngerdd Gwyl Ddewi 2017"
+      }
+   }
+}

@@ -45,6 +45,6 @@
     "firebase_data_endpoint": "site-data",
     "firebase_access_key_file": "./firebase-access-info.json",
     "firebase_config_file": "./firebase-config.js",
-    "data_directory": "."
+    "data_directory": "./src"
   }
 }
