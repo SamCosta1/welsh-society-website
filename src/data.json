@@ -47,8 +47,8 @@
       },
       "society": {
          "chair-str": "Chair",
-         "current": "society",
          "chapel": "Noddfa Chapel",
+         "current": "society",
          "details": "Details",
          "events": {
             "2017": [
@@ -113,174 +113,84 @@
             ]
          },
          "events-title": "Events",
-         "warning": "All meetings are conducted in Welsh",
          "further-details": "Programme and further details may be obtained from ",
          "lang": "en",
          "meetings": "Meetings",
          "meetings-text": "Regular meetings are held, on the second Friday of the month from October to February at",
          "society": "yes",
-         "title": "Society"
+         "title": "Society",
+         "warning": "All meetings are conducted in Welsh"
       },
       "stdavids": {
          "current": "stdavids",
          "davids": "yes",
-         "lang": "en",
-         "title": "St David's Day Concerts",
          "images": {
-            "2017": [
+            "2010": [
                {
-                  "caption": "Caernarfon male voice choir with conductor Delyth Humphreys and pianist Mona Meirion Richards",
-                  "img": "2017-3.jpg"
+                  "caption": "Glanaethwy Youth Choir with their conductor Cefin Roberts",
+                  "img": "young choir1_opt.jpg"
                },
                {
-                  "caption": "Mair Jones, Robat Arwyn, Delyth Humphreys and Mona Meirion Richards",
-                  "img": "2017-1.jpg",
+                  "caption": "Caernarfon Male Voice Choir with their conductor Delyth Humphreys",
+                  "img": "caernarfon_opt.jpg",
                   "size": "md"
                },
                {
-                  "caption": "John Ieuan Jones - Baritone",
-                  "img": "2017-4.jpg",
-                  "size": "md"
-               },
-               {
-                  "caption": "Chloe Roberts - Harp",
-                  "img": "2017-5.jpg",
-                  "size": "md"
-               },
-               {
-                  "img": "2017-2.jpg",
-                  "size": "md"
-               },
-               {
-                  "caption": "Iwan Owen - Piano",
-                  "img": "2017-6.jpg",
-                  "size": "md"
-               },
-               {
-                  "caption": "Rhuthun choir and conductor Robat Arwyn",
-                  "img": "2017-7.jpg"
-               },
-               {
-                  "caption": "John Ieuan Jones",
-                  "img": "2017-8.jpg",
+                  "caption": "Alaw Tecwyn with Elwyn Evans, concert secretary",
+                  "img": "Elwynandsinger_opt.jpg",
                   "size": "sm"
                },
                {
-                  "caption": "John Ieuan Jones and Chloe Roberts",
-                  "img": "2017-9.jpg",
+                  "caption": "Elfair Grug Dyer",
+                  "img": "harp.jpg",
                   "size": "sm"
-               },
-               {
-                  "caption": "John Ieuan Jones",
-                  "img": "2017-10.jpg",
-                  "size": "sm"
-               },
-               {
-                  "caption": "Ieuan, Chole and Iwan",
-                  "img": "2017-12.jpg",
-                  "size": "sm"
-               },
-               {
-                  "caption": "Hen Wlad Fy Nhadau",
-                  "img": "2017-11.jpg"
                }
             ],
-            "2016": [
+            "2011": [
                {
-                  "caption": "Côr Seiriol and their conductor Gwennant Pyrs",
-                  "img": "2016-2.jpg"
+                  "caption": "Brythoniad Male Voice Choir with conductor John Eifion",
+                  "img": "2011-1.jpg"
                },
                {
-                  "caption": "Côr Meibion y Brythoniaid with conductor John Eifion in full voice!",
-                  "img": "2016-3.jpg"
-               },
-               {
-                  "caption": "Harpists from the RNCM Chloe Roberts and Alice Roberts",
-                  "img": "2016-5.jpg",
+                  "caption": "Michael Davies on the piano",
+                  "img": "2011-2.jpg",
                   "size": "md"
                },
                {
-                  "caption": "Chloe and Alice with concert secretary Elwyn Evans",
-                  "img": "2016-4.jpg",
+                  "caption": "Lorna James accompanied by David Jones",
+                  "img": "2011-3.jpg",
                   "size": "md"
-               },
-               {
-                  "caption": "Hen Wlad Fy Nhadau",
-                  "img": "2016-1.jpg"
                }
             ],
-            "2015": [
+            "2012": [
                {
-                  "caption": "Côr Godre'r Aran and their conductor / accompanist Eirian Owen",
-                  "img": "2015-1.jpg"
+                  "caption": "Rhos Male Voice Choir with conductor Aled Phillips",
+                  "img": "2012-1.jpg"
                },
                {
-                  "img": "2015-2.jpg",
+                  "caption": "Soloiara Meinir Wyn and Elgan Llyr with accompanist James Vaughan",
+                  "img": "2012-2.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Elgan Llyr Thomas, winner in 2011 of the Manchester Welsh Society prize for singing",
+                  "img": "2012-3.jpg",
                   "size": "sm"
                },
                {
-                  "img": "2015-3.jpg",
+                  "caption": "Meinir and Elgan perform the famous duet \"Hywel and Blodwen\"",
+                  "img": "2012-4.jpg",
                   "size": "md"
                },
                {
-                  "caption": "Guest soloist Meinir Wyn Roberts and accompanist Michael Davies",
-                  "img": "2015-4.jpg",
+                  "caption": "Alice Roberts from the Junior RNCM, taught by Eira Lynn Jones",
+                  "img": "2012-5.jpg",
                   "size": "md"
                },
                {
                   "caption": "Hen Wlad fy Nhadau",
-                  "img": "2015-5.jpg"
+                  "img": "2012-6.jpg"
                }
-            ],
-            "2014": [
-               {
-                  "caption": "Emmanuel Church",
-                  "img": "church.jpg",
-                  "size": "sm"
-               },
-               {
-                  "caption": "Côr Gore Glas (mixed voice choir from Machynlleth",
-                  "img": "corgoreglas.jpg",
-                  "size": "md"
-               },
-               {
-                  "caption": "Michaela Parry, mezzo-soprano (winner of the Welsh Society prize 2013 at the RNCM)",
-                  "img": "michaela.jpg",
-                  "size": "sm"
-               },
-               {
-                  "caption": "Elfair Grug Dyer, harp (winner of the Blue Riband instrumental competition at the National Eisteddfod 2013)",
-                  "img": "Elfair.jpg",
-                  "size": "sm"
-               },
-               {
-                  "img": "2014-1.jpg",
-                  "size": "md"
-               },
-               {
-                  "img": "2014-2.jpg",
-                  "size": "md"
-               },
-               {
-                  "img": "2014-3.jpg"
-               },
-               {
-                  "img": "2014-4.jpg",
-                  "size": "md"
-               },
-               {
-                  "img": "2014-5.jpg",
-                  "size": "sm"
-               },
-               {
-                  "img": "2014-6.jpg",
-                  "size": "md"
-               },
-               {
-                  "img": "2014-7.jpg",
-                  "size": "md"
-               }
-               
             ],
             "2013": [
                {
@@ -339,76 +249,165 @@
                   "caption": "Hen Wlad fy Nhadau",
                   "img": "2013-13.jpg",
                   "size": "md"
-               }               
+               }
             ],
-            "2012": [
+            "2014": [
                {
-                  "caption": "Rhos Male Voice Choir with conductor Aled Phillips",
-                  "img": "2012-1.jpg"
-               },
-               {
-                  "caption": "Soloiara Meinir Wyn and Elgan Llyr with accompanist James Vaughan",
-                  "img": "2012-2.jpg",
-                  "size": "md"
-               },
-               {
-                  "caption": "Elgan Llyr Thomas, winner in 2011 of the Manchester Welsh Society prize for singing",
-                  "img": "2012-3.jpg",
+                  "caption": "Emmanuel Church",
+                  "img": "church.jpg",
                   "size": "sm"
                },
                {
-                  "caption": "Meinir and Elgan perform the famous duet \"Hywel and Blodwen\"",
-                  "img": "2012-4.jpg",
+                  "caption": "Côr Gore Glas (mixed voice choir from Machynlleth",
+                  "img": "corgoreglas.jpg",
                   "size": "md"
                },
                {
-                  "caption": "Alice Roberts from the Junior RNCM, taught by Eira Lynn Jones",
-                  "img": "2012-5.jpg",
+                  "caption": "Michaela Parry, mezzo-soprano (winner of the Welsh Society prize 2013 at the RNCM)",
+                  "img": "michaela.jpg",
+                  "size": "sm"
+               },
+               {
+                  "caption": "Elfair Grug Dyer, harp (winner of the Blue Riband instrumental competition at the National Eisteddfod 2013)",
+                  "img": "Elfair.jpg",
+                  "size": "sm"
+               },
+               {
+                  "img": "2014-1.jpg",
+                  "size": "md"
+               },
+               {
+                  "img": "2014-2.jpg",
+                  "size": "md"
+               },
+               {
+                  "img": "2014-3.jpg"
+               },
+               {
+                  "img": "2014-4.jpg",
+                  "size": "md"
+               },
+               {
+                  "img": "2014-5.jpg",
+                  "size": "sm"
+               },
+               {
+                  "img": "2014-6.jpg",
+                  "size": "md"
+               },
+               {
+                  "img": "2014-7.jpg",
+                  "size": "md"
+               }
+            ],
+            "2015": [
+               {
+                  "caption": "Côr Godre'r Aran and their conductor / accompanist Eirian Owen",
+                  "img": "2015-1.jpg"
+               },
+               {
+                  "img": "2015-2.jpg",
+                  "size": "sm"
+               },
+               {
+                  "img": "2015-3.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Guest soloist Meinir Wyn Roberts and accompanist Michael Davies",
+                  "img": "2015-4.jpg",
                   "size": "md"
                },
                {
                   "caption": "Hen Wlad fy Nhadau",
-                  "img": "2012-6.jpg"               
+                  "img": "2015-5.jpg"
                }
             ],
-            "2011": [
+            "2016": [
                {
-                  "caption": "Brythoniad Male Voice Choir with conductor John Eifion",
-                  "img": "2011-1.jpg"           
+                  "caption": "Côr Seiriol and their conductor Gwennant Pyrs",
+                  "img": "2016-2.jpg"
                },
                {
-                  "caption": "Michael Davies on the piano",
-                  "img": "2011-2.jpg",
+                  "caption": "Côr Meibion y Brythoniaid with conductor John Eifion in full voice!",
+                  "img": "2016-3.jpg"
+               },
+               {
+                  "caption": "Harpists from the RNCM Chloe Roberts and Alice Roberts",
+                  "img": "2016-5.jpg",
                   "size": "md"
                },
                {
-                  "caption": "Lorna James accompanied by David Jones",
-                  "img": "2011-3.jpg",
+                  "caption": "Chloe and Alice with concert secretary Elwyn Evans",
+                  "img": "2016-4.jpg",
                   "size": "md"
+               },
+               {
+                  "caption": "Hen Wlad Fy Nhadau",
+                  "img": "2016-1.jpg"
                }
             ],
-            "2010": [
+            "2017": [
                {
-                  "caption": "Glanaethwy Youth Choir with their conductor Cefin Roberts",
-                  "img": "young choir1_opt.jpg"
+                  "caption": "Caernarfon male voice choir with conductor Delyth Humphreys and pianist Mona Meirion Richards",
+                  "img": "2017-3.jpg"
                },
                {
-                  "caption": "Caernarfon Male Voice Choir with their conductor Delyth Humphreys",
-                  "img": "caernarfon_opt.jpg",
+                  "caption": "Mair Jones, Robat Arwyn, Delyth Humphreys and Mona Meirion Richards",
+                  "img": "2017-1.jpg",
                   "size": "md"
                },
                {
-                  "caption": "Alaw Tecwyn with Elwyn Evans, concert secretary",
-                  "img": "Elwynandsinger_opt.jpg",
+                  "caption": "John Ieuan Jones - Baritone",
+                  "img": "2017-4.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Chloe Roberts - Harp",
+                  "img": "2017-5.jpg",
+                  "size": "md"
+               },
+               {
+                  "img": "2017-2.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Iwan Owen - Piano",
+                  "img": "2017-6.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Rhuthun choir and conductor Robat Arwyn",
+                  "img": "2017-7.jpg"
+               },
+               {
+                  "caption": "John Ieuan Jones",
+                  "img": "2017-8.jpg",
                   "size": "sm"
                },
                {
-                  "caption": "Elfair Grug Dyer",
-                  "img": "harp.jpg",
+                  "caption": "John Ieuan Jones and Chloe Roberts",
+                  "img": "2017-9.jpg",
                   "size": "sm"
-               }               
+               },
+               {
+                  "caption": "John Ieuan Jones",
+                  "img": "2017-10.jpg",
+                  "size": "sm"
+               },
+               {
+                  "caption": "Ieuan, Chole and Iwan",
+                  "img": "2017-12.jpg",
+                  "size": "sm"
+               },
+               {
+                  "caption": "Hen Wlad Fy Nhadau",
+                  "img": "2017-11.jpg"
+               }
             ]
-         }
+         },
+         "lang": "en",
+         "title": "St David's Day Concerts"
       }
    },
    "we": {
@@ -525,172 +524,84 @@
             ]
          },
          "events-title": "Digwyddiadau",
-         "warning": "Cynhelir pob cyfarfod Nghymraeg",
          "further-details": "Y Rhaglen a mwy o fanylion oddiwrth",
          "lang": "en",
          "meetings": "Cyfarfodydd",
          "meetings-text": "Cynhelir y cyfarfodydd ar yr ail nos Wener o'r mis, o fis Hydref hyd at fis Chwefror yng",
          "society": "yes",
-         "title": "Cymdeithas"
+         "title": "Cymdeithas",
+         "warning": "Cynhelir pob cyfarfod Nghymraeg"
       },
       "stdavids": {
          "current": "stdavids",
          "davids": "yes",
          "images": {
-            "2017": [
+            "2010": [
                {
-                  "caption": "Côr Meibion Caernarfon o dan arweiniad Delyth Humphreys, cyfeilydd Mona Meirion Richards",
-                  "img": "2017-3.jpg"
+                  "caption": "Côr Ysgol Glanaethwy o dan arweiniad Cefin Roberts",
+                  "img": "young choir1_opt.jpg"
                },
                {
-                  "caption": "Mair Jones, Robat Arwyn, Delyth Humphreys a Mona Meirion Richards",
-                  "img": "2017-1.jpg",
+                  "caption": "Côr Meibion Caernarfon gyda'u arweinydd Delyth Humphreys",
+                  "img": "caernarfon_opt.jpg",
                   "size": "md"
                },
                {
-                  "caption": "John Ieuan Jones - baritone",
-                  "img": "2017-4.jpg",
-                  "size": "md"
-               },
-               {
-                  "caption": "Chloe Roberts - Telyn",
-                  "img": "2017-5.jpg",
-                  "size": "md"
-               },
-               {
-                  "img": "2017-2.jpg",
-                  "size": "md"
-               },
-               {
-                  "caption": "Iwan Owen - piano",
-                  "img": "2017-6.jpg",
-                  "size": "md"
-               },
-               {
-                  "caption": "Côr Rhuthun a'u harweinydd Robat Arwyn",
-                  "img": "2017-7.jpg"
-               },
-               {
-                  "caption": "John Ieuan Jones",
-                  "img": "2017-8.jpg",
+                  "caption": "Alaw Tecwyn gyda Elwyn Evans, ysgrifennydd cerdd",
+                  "img": "Elwynandsinger_opt.jpg",
                   "size": "sm"
                },
                {
-                  "caption": "John Ieuan Jones a Chloe Roberts",
-                  "img": "2017-9.jpg",
+                  "caption": "Elfair Grug Dyer",
+                  "img": "harp.jpg",
                   "size": "sm"
-               },
-               {
-                  "caption": "John Ieuan Jones",
-                  "img": "2017-10.jpg",
-                  "size": "sm"
-               },
-               {
-                  "caption": "Ieuan, Chloe ac Iwan",
-                  "img": "2017-12.jpg",
-                  "size": "sm"
-               },
-               {
-                  "caption": "Hen Wlad Fy Nhadau",
-                  "img": "2017-11.jpg"
                }
             ],
-            "2016": [
+            "2011": [
                {
-                  "caption": "Côr Seiriol dan arweiniad Gwennant Pyrs",
-                  "img": "2016-2.jpg"
+                  "caption": "Côr Meibion y Brythoniad o dan arweiniad John Eifion",
+                  "img": "2011-1.jpg"
                },
                {
-                  "caption": "Côr Meibion y Brythoniaid a'u herweinydd John Eifion in full voice!",
-                  "img": "2016-3.jpg"
-               },
-               {
-                  "caption": "Deuawd o'r Coleg Cerdd, Chloe Roberts and Alice Roberts",
-                  "img": "2016-5.jpg",
+                  "caption": "Michael Davies wrth y piano",
+                  "img": "2011-2.jpg",
                   "size": "md"
                },
                {
-                  "caption": "Chloe and Alice gyda ysgrifennydd cerdd Elwyn Evans",
-                  "img": "2016-4.jpg",
+                  "caption": "Lorna James a'i chyfeilydd David Jones",
+                  "img": "2011-3.jpg",
                   "size": "md"
-               },
-               {
-                  "caption": "Hen Wlad Fy Nhadau",
-                  "img": "2016-1.jpg"
                }
             ],
-            "2015": [
+            "2012": [
                {
-                  "caption": "Côr Godre'r Aran dan arweiniad Eirian Owen",
-                  "img": "2015-1.jpg"
+                  "caption": "Côr Meibion y Rhos o dan arweiniad Aled Phillips",
+                  "img": "2012-1.jpg"
                },
                {
-                  "img": "2015-2.jpg",
+                  "caption": "Unawdwyr Meinir Wyn ac Elgan Llyr a'u cyfeilydd James Vaughan",
+                  "img": "2012-2.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Elgan Llyr Thomas, enillydd gwobr ganu Cymdeithas Cymry Manceinion 2011",
+                  "img": "2012-3.jpg",
                   "size": "sm"
                },
                {
-                  "img": "2015-3.jpg",
+                  "caption": "Meinir and Elgan yn canu'r ddeuawd \"Hywel a Blodwen\"",
+                  "img": "2012-4.jpg",
                   "size": "md"
                },
                {
-                  "caption": "Unawdydd Meinir Wyn Roberts a'i chyfeilydd Michael Davies",
-                  "img": "2015-4.jpg",
+                  "caption": "Alice Roberts o Ysgol Gynradd y Coleg Cerdd, un o ddisgyblio Eira Lynn Jones",
+                  "img": "2012-5.jpg",
                   "size": "md"
                },
                {
                   "caption": "Hen Wlad fy Nhadau",
-                  "img": "2015-5.jpg"
+                  "img": "2012-6.jpg"
                }
-            ],
-            "2014": [
-               {
-                  "caption": "Eglwys Emmanuel",
-                  "img": "church.jpg",
-                  "size": "sm"
-               },
-               {
-                  "caption": "Côr Gore Glas (côr cymysg o Fachynlleth",
-                  "img": "corgoreglas.jpg",
-                  "size": "md"
-               },
-               {
-                  "caption": "Michaela Parry, mezzo-soprano (enillydd ein Gwobr 2013 yn y Coleg Cerdd)",
-                  "img": "michaela.jpg",
-                  "size": "sm"
-               },
-               {
-                  "caption": "Elfair Grug Dyer, telyn (ennillydd y Rhuban Glas Offerynol yn yr Eisteddfod Genedlaethol 2013)",
-                  "img": "Elfair.jpg",
-                  "size": "sm"
-               },
-               {
-                  "img": "2014-1.jpg",
-                  "size": "md"
-               },
-               {
-                  "img": "2014-2.jpg",
-                  "size": "md"
-               },
-               {
-                  "img": "2014-3.jpg"
-               },
-               {
-                  "img": "2014-4.jpg",
-                  "size": "md"
-               },
-               {
-                  "img": "2014-5.jpg",
-                  "size": "sm"
-               },
-               {
-                  "img": "2014-6.jpg",
-                  "size": "md"
-               },
-               {
-                  "img": "2014-7.jpg",
-                  "size": "md"
-               }
-               
             ],
             "2013": [
                {
@@ -749,74 +660,161 @@
                   "caption": "Hen Wlad fy Nhadau",
                   "img": "2013-13.jpg",
                   "size": "md"
-               }               
+               }
             ],
-            "2012": [
+            "2014": [
                {
-                  "caption": "Côr Meibion y Rhos o dan arweiniad Aled Phillips",
-                  "img": "2012-1.jpg"
-               },
-               {
-                  "caption": "Unawdwyr Meinir Wyn ac Elgan Llyr a'u cyfeilydd James Vaughan",
-                  "img": "2012-2.jpg",
-                  "size": "md"
-               },
-               {
-                  "caption": "Elgan Llyr Thomas, enillydd gwobr ganu Cymdeithas Cymry Manceinion 2011",
-                  "img": "2012-3.jpg",
+                  "caption": "Eglwys Emmanuel",
+                  "img": "church.jpg",
                   "size": "sm"
                },
                {
-                  "caption": "Meinir and Elgan yn canu'r ddeuawd \"Hywel a Blodwen\"",
-                  "img": "2012-4.jpg",
+                  "caption": "Côr Gore Glas (côr cymysg o Fachynlleth",
+                  "img": "corgoreglas.jpg",
                   "size": "md"
                },
                {
-                  "caption": "Alice Roberts o Ysgol Gynradd y Coleg Cerdd, un o ddisgyblio Eira Lynn Jones",
-                  "img": "2012-5.jpg",
+                  "caption": "Michaela Parry, mezzo-soprano (enillydd ein Gwobr 2013 yn y Coleg Cerdd)",
+                  "img": "michaela.jpg",
+                  "size": "sm"
+               },
+               {
+                  "caption": "Elfair Grug Dyer, telyn (ennillydd y Rhuban Glas Offerynol yn yr Eisteddfod Genedlaethol 2013)",
+                  "img": "Elfair.jpg",
+                  "size": "sm"
+               },
+               {
+                  "img": "2014-1.jpg",
+                  "size": "md"
+               },
+               {
+                  "img": "2014-2.jpg",
+                  "size": "md"
+               },
+               {
+                  "img": "2014-3.jpg"
+               },
+               {
+                  "img": "2014-4.jpg",
+                  "size": "md"
+               },
+               {
+                  "img": "2014-5.jpg",
+                  "size": "sm"
+               },
+               {
+                  "img": "2014-6.jpg",
+                  "size": "md"
+               },
+               {
+                  "img": "2014-7.jpg",
+                  "size": "md"
+               }
+            ],
+            "2015": [
+               {
+                  "caption": "Côr Godre'r Aran dan arweiniad Eirian Owen",
+                  "img": "2015-1.jpg"
+               },
+               {
+                  "img": "2015-2.jpg",
+                  "size": "sm"
+               },
+               {
+                  "img": "2015-3.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Unawdydd Meinir Wyn Roberts a'i chyfeilydd Michael Davies",
+                  "img": "2015-4.jpg",
                   "size": "md"
                },
                {
                   "caption": "Hen Wlad fy Nhadau",
-                  "img": "2012-6.jpg"               
+                  "img": "2015-5.jpg"
                }
             ],
-            "2011": [
+            "2016": [
                {
-                  "caption": "Côr Meibion y Brythoniad o dan arweiniad John Eifion",
-                  "img": "2011-1.jpg"           
+                  "caption": "Côr Seiriol dan arweiniad Gwennant Pyrs",
+                  "img": "2016-2.jpg"
                },
                {
-                  "caption": "Michael Davies wrth y piano",
-                  "img": "2011-2.jpg",
+                  "caption": "Côr Meibion y Brythoniaid a'u herweinydd John Eifion in full voice!",
+                  "img": "2016-3.jpg"
+               },
+               {
+                  "caption": "Deuawd o'r Coleg Cerdd, Chloe Roberts and Alice Roberts",
+                  "img": "2016-5.jpg",
                   "size": "md"
                },
                {
-                  "caption": "Lorna James a'i chyfeilydd David Jones",
-                  "img": "2011-3.jpg",
+                  "caption": "Chloe and Alice gyda ysgrifennydd cerdd Elwyn Evans",
+                  "img": "2016-4.jpg",
                   "size": "md"
+               },
+               {
+                  "caption": "Hen Wlad Fy Nhadau",
+                  "img": "2016-1.jpg"
                }
             ],
-            "2010": [
+            "2017": [
                {
-                  "caption": "Côr Ysgol Glanaethwy o dan arweiniad Cefin Roberts",
-                  "img": "young choir1_opt.jpg"
+                  "caption": "Côr Meibion Caernarfon o dan arweiniad Delyth Humphreys, cyfeilydd Mona Meirion Richards",
+                  "img": "2017-3.jpg"
                },
                {
-                  "caption": "Côr Meibion Caernarfon gyda'u arweinydd Delyth Humphreys",
-                  "img": "caernarfon_opt.jpg",
+                  "caption": "Mair Jones, Robat Arwyn, Delyth Humphreys a Mona Meirion Richards",
+                  "img": "2017-1.jpg",
                   "size": "md"
                },
                {
-                  "caption": "Alaw Tecwyn gyda Elwyn Evans, ysgrifennydd cerdd",
-                  "img": "Elwynandsinger_opt.jpg",
+                  "caption": "John Ieuan Jones - baritone",
+                  "img": "2017-4.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Chloe Roberts - Telyn",
+                  "img": "2017-5.jpg",
+                  "size": "md"
+               },
+               {
+                  "img": "2017-2.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Iwan Owen - piano",
+                  "img": "2017-6.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Côr Rhuthun a'u harweinydd Robat Arwyn",
+                  "img": "2017-7.jpg"
+               },
+               {
+                  "caption": "John Ieuan Jones",
+                  "img": "2017-8.jpg",
                   "size": "sm"
                },
                {
-                  "caption": "Elfair Grug Dyer",
-                  "img": "harp.jpg",
+                  "caption": "John Ieuan Jones a Chloe Roberts",
+                  "img": "2017-9.jpg",
                   "size": "sm"
-               }               
+               },
+               {
+                  "caption": "John Ieuan Jones",
+                  "img": "2017-10.jpg",
+                  "size": "sm"
+               },
+               {
+                  "caption": "Ieuan, Chloe ac Iwan",
+                  "img": "2017-12.jpg",
+                  "size": "sm"
+               },
+               {
+                  "caption": "Hen Wlad Fy Nhadau",
+                  "img": "2017-11.jpg"
+               }
             ]
          },
          "lang": "en",
