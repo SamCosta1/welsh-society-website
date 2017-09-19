@@ -183,7 +183,6 @@
                   "img": "2017-11.jpg"
                }
             ],
-
             "2016": [
                {
                   "caption": "Côr Seiriol and their conductor Gwennant Pyrs",
@@ -210,8 +209,202 @@
             ],
             "2015": [
                {
-                  "caption": ""
+                  "caption": "Côr Godre'r Aran and their conductor / accompanist Eirian Owen",
+                  "img": "2015-1.jpg"
+               },
+               {
+                  "img": "2015-2.jpg",
+                  "size": "sm"
+               },
+               {
+                  "img": "2015-3.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Guest soloist Meinir Wyn Roberts and accompanist Michael Davies",
+                  "img": "2015-4.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Hen Wlad fy Nhadau",
+                  "img": "2015-5.jpg"
                }
+            ],
+            "2014": [
+               {
+                  "caption": "Emmanuel Church",
+                  "img": "church.jpg",
+                  "size": "sm"
+               },
+               {
+                  "caption": "Côr Gore Glas (mixed voice choir from Machynlleth",
+                  "img": "corgoreglas.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Michaela Parry, mezzo-soprano (winner of the Welsh Society prize 2013 at the RNCM)",
+                  "img": "michaela.jpg",
+                  "size": "sm"
+               },
+               {
+                  "caption": "Elfair Grug Dyer, harp (winner of the Blue Riband instrumental competition at the National Eisteddfod2013)",
+                  "img": "Elfair.jpg",
+                  "size": "sm"
+               },
+               {
+                  "img": "2014-1.jpg",
+                  "size": "md"
+               },
+               {
+                  "img": "2014-2.jpg",
+                  "size": "md"
+               },
+               {
+                  "img": "2014-3.jpg"
+               },
+               {
+                  "img": "2014-4.jpg",
+                  "size": "md"
+               },
+               {
+                  "img": "2014-5.jpg",
+                  "size": "sm"
+               },
+               {
+                  "img": "2014-6.jpg",
+                  "size": "md"
+               },
+               {
+                  "img": "2014-7.jpg",
+                  "size": "md"
+               }
+               
+            ],
+            "2013": [
+               {
+                  "caption": "Côr Meibion Trelawnyd",
+                  "img": "2013-1.jpg"
+               },
+               {
+                  "img": "2014-3.jpg",
+                  "size": "sm"
+               },
+               {
+                  "caption": "Rehearsal in the R.N.C.M",
+                  "img": "2013-2.jpg"
+               },
+               {
+                  "img": "2013-4.jpg",
+                  "size": "sm"
+               },
+               {
+                  "img": "2013-5.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Catrin Woodruff - Soprano, Winner of the Manchester Welsh Society Prize for singing in 2012",
+                  "img": "2013-6.jpg",
+                  "size": "sm"
+               },
+               {
+                  "caption": "Annette Bryn Parri",
+                  "img": "2013-7.jpg",
+                  "size": "md"
+               },
+               {
+                  "img": "2013-8.jpg",
+                  "size": "md"
+               },
+               {
+                  "img": "2013-9.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "John Hosking",
+                  "img": "2013-10.jpg",
+                  "size": "sm"
+               },
+               {
+                  "img": "2013-11.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Dilwyn Price (conductor)",
+                  "img": "2013-12.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Hen Wlad fy Nhadau",
+                  "img": "2013-13.jpg",
+                  "size": "md"
+               }               
+            ],
+            "2012": [
+               {
+                  "caption": "Rhos Male Voice Choir with conductor Aled Phillips",
+                  "img": "2012-1.jpg"
+               },
+               {
+                  "caption": "Soloiara Meinir Wyn and Elgan Llyr with accompanist James Vaughan",
+                  "img": "2012-2.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Elgan Llyr Thomas, winner in 2011 of the Manchester Welsh Society prize for singing",
+                  "img": "2012-3.jpg",
+                  "size": "sm"
+               },
+               {
+                  "caption": "Meinir and Elgan perform the famous duet \"Hywel and Blodwen\"",
+                  "img": "2012-4.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Alice Roberts from the Junior RNCM, taught by Eira Lynn Jones",
+                  "img": "2012-5.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Hen Wlad fy Nhadau",
+                  "img": "2012-6.jpg"               
+               }
+            ],
+            "2011": [
+               {
+                  "caption": "Brythoniad Male Voice Choir with conductor John Eifion",
+                  "img": "2011-1.jpg"           
+               },
+               {
+                  "caption": "Michael Davies on the piano",
+                  "img": "2011-2.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Lorna James accompanied by David Jones",
+                  "img": "2011-3.jpg",
+                  "size": "md"
+               }
+            ],
+            "2010": [
+               {
+                  "caption": "Glanaethwy Youth Choir with their conductor Cefin Roberts",
+                  "img": "young choir1_opt"
+               },
+               {
+                  "caption": "Caernarfon Male Voice Choir with their conductor Delyth Humphreys",
+                  "img": "caernarfon_opt.jpg",
+                  "size": "md"
+               },
+               {
+                  "caption": "Alaw Tecwyn with Elwyn Evans, concert secretary",
+                  "img": "Elwynandsinger_opt.jpg",
+                  "size": "sm"
+               },
+               {
+                  "caption": "Elfair Grug Dyer",
+                  "img": "harp.jpg",
+                  "size": "sm"
+               }               
             ]
          }
       }
