@@ -70,9 +70,13 @@ function fetchFromFirebase(createCache) {
    return new Promise((resolve, reject) => {
 
       firebase.database().ref(FIREBASE_SITEDATA_ENDPOINT).once('value').then(snapshot => {         
-         if (createCache) writeToCache(snapshot.val());
+         if (createCache) writeToCache(snapshot.val(), done);
+         else done();
+      
+         function done() {
+            resolve(snapshot.val());
+         }
 
-         resolve(snapshot.val());
       }).catch(err => { throw err });
    });
 }
@@ -87,8 +91,9 @@ function loadLocalCache() {
    });
 }
 
-function writeToCache(body) {
+function writeToCache(body, cb) {
    fs.writeFile(dataPath, JSON.stringify(body, null, 3), (err) => {
       if (err) throw err;
+      cb();
    });
 }

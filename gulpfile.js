@@ -44,8 +44,8 @@ gulp.task('compile-templates', (cb) => {
       
    firebaseAccessor.getData(deploy, true)
       .then(data => { 
+            console.log("rgijrklgjer");
          templateEngine.reCompile(data);  
-         process.exit();  // HACK: Does all the other tasks then exits after this one
       })
       .catch(err => { throw err });
    return;
