@@ -44,14 +44,17 @@ gulp.task('compile-templates', (cb) => {
       
    firebaseAccessor.getData(deploy, true)
       .then(data => { 
-         templateEngine.reCompile(data);  
-         process.exit();  // HACK: Does all the other tasks then exits after this one
+         templateEngine.reCompile(data);
+         cb();
       })
       .catch(err => { throw err });
    return;
 });
 
-gulp.task('default', ['styles', 'copy-assets', 'copy-index'], () => {
+gulp.task('default', () => {
+   gulp.start('styles');
+   gulp.start('copy-assets');
+   gulp.start('copy-index');
    gulp.start('compile-templates');
 });
 
@@ -72,6 +75,6 @@ gulp.task('dev', ['default'], () => {
    });
    gulp.watch(`${SASS_SRC}/**/*.scss`, ['styles']);
    gulp.watch(`${TEMPLATES_SRC}/**/*.html`, ['compile-templates']);
-   gulp.watch(`./data.json`, ['compile-templates']);
+   gulp.watch(firebaseAccessor.getDataPath(), ['compile-templates']);
    gulp.watch(`${DIST}/**/*`, browserSync.reload)
 });
