@@ -16,7 +16,7 @@
             <div class="title text">{{meetings}}</div>
             <div class="text">{{meetings-text}}</div>
             <div class="address text">
-               Noddfa Chapel<br> Oaker Avenue<br> West Didsbury<br> M20 2XH.
+               {{chapel}}<br> Oaker Avenue<br> West Didsbury<br> M20 2XH.
             </div>
          </div>
 
@@ -24,6 +24,7 @@
 
          <div class="section">
             <div class="title text">{{events-title}}</div>
+            <div class="text"><i>{{warning}}</i></div>
 
             {{#each events as |list year|}}
                <div class="subtitle text">{{year}}</div>
@@ -48,7 +49,7 @@
 
          <div class="section">
             <div class="title text">{{details}}</div>
-            <div class="text">{{further-details}} <a href="/{{lang}}/contact.html">Ann Hunt</a></div>
+            <div class="text">{{further-details}} <a href="/{{lang}}/contact.html">Anne Hunt</a></div>
          </div>
       </div>
 

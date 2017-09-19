@@ -38,9 +38,9 @@
       "index": {
          "current": "index",
          "index": "yes",
-         "intro1": "We are an active group of exiles striving to preserve our heritage and preserving our language by means of literary meetings, concerts and Christian worship.",
+         "intro1": "We are a group of exiles striving to preserve our heritage and preserving our language by means of welsh literary meetings, concerts and chapel services.",
          "intro2": "Makes you nostalgic?",
-         "intro3": "Visit this page regularly to find out what is going on.",
+         "intro3": "Visit the Society to find out what is going on.",
          "lang": "en",
          "title": "Manchester Welsh Society",
          "welcome": "Welcome"
@@ -48,6 +48,7 @@
       "society": {
          "chair-str": "Chair",
          "current": "society",
+         "chapel": "Noddfa Chapel",
          "details": "Details",
          "events": {
             "2017": [
@@ -71,7 +72,7 @@
                   "chair": "Mrs Eflyn Evans",
                   "date": "December 8th",
                   "info": [
-                     "Christmasy evening with Glynn, Trefor a Lilian"
+                     "Christmassy evening with Glynn, Trefor a Lilian"
                   ]
                }
             ],
@@ -81,14 +82,14 @@
                   "date": "January 12th",
                   "info": [
                      "Patagonia Experiences",
-                     "Mr Ceflyn Burgess, Rhuthun"
+                     "Mr Cefyn Burgess, Rhuthun"
                   ]
                },
                {
                   "chair": "Mrs Mair Swift",
                   "date": "Febuary 9th",
                   "info": [
-                     "Forty years of concerts in the Music College",
+                     "Forty years of concerts in the RNCM",
                      "Mr Elwyn Evans, Didsbury"
                   ]
                },
@@ -112,6 +113,7 @@
             ]
          },
          "events-title": "Events",
+         "warning": "All meetings are conducted in Welsh",
          "further-details": "Programme and further details may be obtained from ",
          "lang": "en",
          "meetings": "Meetings",
@@ -127,11 +129,11 @@
          "images": {
             "2017": [
                {
-                  "caption": "Caernarfon male voice choir with conductor Delyth Humphreys, pianist; Mona Meirion Richards",
+                  "caption": "Caernarfon male voice choir with conductor Delyth Humphreys and pianist Mona Meirion Richards",
                   "img": "2017-3.jpg"
                },
                {
-                  "caption": "Mair Jones, Robart Arwyn, Delyth Humphreys and Mona Meirion Richards",
+                  "caption": "Mair Jones, Robat Arwyn, Delyth Humphreys and Mona Meirion Richards",
                   "img": "2017-1.jpg",
                   "size": "md"
                },
@@ -155,7 +157,7 @@
                   "size": "md"
                },
                {
-                  "caption": "Ruthun choir and conductor Robat Arwyn",
+                  "caption": "Rhuthun choir and conductor Robat Arwyn",
                   "img": "2017-7.jpg"
                },
                {
@@ -286,7 +288,7 @@
                   "img": "2013-1.jpg"
                },
                {
-                  "caption": "Rehearsal in the R.N.C.M",
+                  "caption": "Rehearsal in the RNCM",
                   "img": "2013-2.jpg"
                },
                {
@@ -457,6 +459,7 @@
       },
       "society": {
          "chair-str": "Cadeirydd",
+         "chapel": "Capel Noddfa",
          "current": "society",
          "details": "Manylion",
          "events": {
@@ -491,7 +494,7 @@
                   "date": "Ionawr 12fed",
                   "info": [
                      "Profiadau Patagonia",
-                     "Mr Ceflyn Burgess, Rhuthun"
+                     "Mr Cefyn Burgess, Rhuthun"
                   ]
                },
                {
@@ -522,6 +525,7 @@
             ]
          },
          "events-title": "Digwyddiadau",
+         "warning": "Cynhelir pob cyfarfod Nghymraeg",
          "further-details": "Y Rhaglen a mwy o fanylion oddiwrth",
          "lang": "en",
          "meetings": "Cyfarfodydd",
@@ -535,11 +539,11 @@
          "images": {
             "2017": [
                {
-                  "caption": "Côr Meibion Caernarfon o dan arweinedd Delyth Humphreys, cyfeilydd Mona Meirion Richards",
+                  "caption": "Côr Meibion Caernarfon o dan arweiniad Delyth Humphreys, cyfeilydd Mona Meirion Richards",
                   "img": "2017-3.jpg"
                },
                {
-                  "caption": "Mair Jones, Robart Arwyn, Delyth Humphreys a Mona Meirion Richards",
+                  "caption": "Mair Jones, Robat Arwyn, Delyth Humphreys a Mona Meirion Richards",
                   "img": "2017-1.jpg",
                   "size": "md"
                },
@@ -563,7 +567,7 @@
                   "size": "md"
                },
                {
-                  "caption": "Côr Ruthun a'u harweinydd Robat Arwyn",
+                  "caption": "Côr Rhuthun a'u harweinydd Robat Arwyn",
                   "img": "2017-7.jpg"
                },
                {
@@ -582,7 +586,7 @@
                   "size": "sm"
                },
                {
-                  "caption": "Ieuan, Chole ac Iwan",
+                  "caption": "Ieuan, Chloe ac Iwan",
                   "img": "2017-12.jpg",
                   "size": "sm"
                },
@@ -617,7 +621,7 @@
             ],
             "2015": [
                {
-                  "caption": "Côr Godre'r Aran a'i harweinydd Eirian Owen",
+                  "caption": "Côr Godre'r Aran dan arweiniad Eirian Owen",
                   "img": "2015-1.jpg"
                },
                {
@@ -795,7 +799,7 @@
             ],
             "2010": [
                {
-                  "caption": "Côr Ysgol Glanaethwy o dan Cefin Roberts",
+                  "caption": "Côr Ysgol Glanaethwy o dan arweiniad Cefin Roberts",
                   "img": "young choir1_opt.jpg"
                },
                {
