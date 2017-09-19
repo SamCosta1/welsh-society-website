@@ -123,7 +123,7 @@
          "current": "stdavids",
          "davids": "yes",
          "lang": "en",
-         "title": "St David's Day Concert",
+         "title": "St David's Day Concerts",
          "images": {
             "2017": [
                {
@@ -286,12 +286,12 @@
                   "img": "2013-1.jpg"
                },
                {
-                  "img": "2014-3.jpg",
-                  "size": "sm"
-               },
-               {
                   "caption": "Rehearsal in the R.N.C.M",
                   "img": "2013-2.jpg"
+               },
+               {
+                  "img": "2013-3.jpg",
+                  "size": "sm"
                },
                {
                   "img": "2013-4.jpg",
@@ -388,7 +388,7 @@
             "2010": [
                {
                   "caption": "Glanaethwy Youth Choir with their conductor Cefin Roberts",
-                  "img": "young choir1_opt"
+                  "img": "young choir1_opt.jpg"
                },
                {
                   "caption": "Caernarfon Male Voice Choir with their conductor Delyth Humphreys",

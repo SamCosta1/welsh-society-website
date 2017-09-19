@@ -14,21 +14,26 @@
       <div class="sub-container">
          <div class="section">
             <div class="title">{{title}}</div>
-            {{#each images as |item year|}}
-            <div class="images-container">
-               {{year}}
-               {{#each item}}
-               <div class="image-container">
-                  {{#if caption}}
-                  <div class="overlay">
-                     <div class="caption content">{{caption}}</div>
+
+            <div class="years-container">
+               {{#each images as |item year|}}
+               <div class="year-container">
+                  <div class="title">{{year}}</div>
+                  <div class="images-container">
+                     {{#each item}}
+                     <div class="image-container">
+                        {{#if caption}}
+                        <div class="overlay">
+                           <div class="caption content">{{caption}}</div>
+                        </div>
+                        {{/if}}
+                        <img {{#if size}}class="{{size}}" {{/if}} src="../assets/stdavids/{{year}}/{{img}}"></img>
+                     </div>
+                     {{/each}}
                   </div>
-                  {{/if}}
-                  <img {{#if size}}class="{{size}}" {{/if}} src="../assets/stdavids/{{year}}/{{img}}"></img>
                </div>
                {{/each}}
             </div>
-            {{/each}}
          </div>
       </div>
    </div>
