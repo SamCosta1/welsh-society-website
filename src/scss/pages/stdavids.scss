@@ -53,6 +53,11 @@
             padding: 20px 0px;
         }
     }
+
+    .years-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
     .images-container {
         display: flex;
         flex-direction: column;
