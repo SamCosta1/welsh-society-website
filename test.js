@@ -1,4 +1,4 @@
-var templateEngine = require('./templateEngine'),
+var templateEngine = require('./template-engine'),
     data = require('./get-data');
 
     data.getData(true, true).then(data => {

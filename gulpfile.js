@@ -5,7 +5,7 @@ const gulp = require('gulp'),
       fs = require('fs-extra'),
       browserSync = require('browser-sync').create(),
       autoprefixer = require('gulp-autoprefixer')
-      templateEngine = require('./templateEngine'),
+      templateEngine = require('./template-engine'),
       firebaseAccessor = require('./firebase-accessor');
 
 const SRC = 'src',
@@ -48,7 +48,6 @@ gulp.task('compile-templates', (cb) => {
          cb();
       })
       .catch(err => { throw err });
-   return;
 });
 
 gulp.task('default', () => {
