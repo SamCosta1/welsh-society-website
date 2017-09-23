@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "gulp deploy",
-    "dev": "gulp"
+    "dev": "gulp dev"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
     "font-awesome": "^4.7.0",
     "fs-extra": "^4.0.1",
     "handlebars": "^4.0.10",
+    "jquery": "^3.2.1",
     "language-templating": "git+https://github.com/SamCosta1/language-templating.git",
     "node-watch": "^0.5.5",
     "purecss": "^1.0.0",
@@ -30,10 +31,13 @@
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
     "browser-sync": "^2.18.13",
     "chokidar-cli": "^1.2.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^7.0.0",
     "gulp-clean-css": "^3.8.0",
     "gulp-if": "^2.0.2",
     "gulp-sass": "^3.1.0",

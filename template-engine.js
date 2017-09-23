@@ -85,9 +85,9 @@ function readFiles(file) {
 function compileTemplate(lang, file, data, HTML) {
   data = data ? data : {};
 
-  var template = Handlebars.compile(HTML);
+  const template = Handlebars.compile(HTML);
   Object.assign(data, partialsData[lang], { "lang": lang });
 
-  var html = template(data);
+  const html = template(data);
   fs.writeFile(`${dist}/${lang}/${file}.html`, html, (err) => {     if (err) return console.log(err);    }); 
 }

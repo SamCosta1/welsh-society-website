@@ -4,7 +4,8 @@ const gulp = require('gulp'),
       cleanCSS = require('gulp-clean-css'),
       fs = require('fs-extra'),
       browserSync = require('browser-sync').create(),
-      autoprefixer = require('gulp-autoprefixer')
+      autoprefixer = require('gulp-autoprefixer'),
+      babel = require('gulp-babel'),
       templateEngine = require('./template-engine'),
       firebaseAccessor = require('./firebase-accessor');
 
@@ -15,6 +16,9 @@ const SRC = 'src',
 
       ASSETS_SRC = 'src/assets',
       ASSETS_DEST = 'dist/assets',
+
+      JS_SRC = 'src/js',
+      JS_DEST = 'dist/js',
 
       TEMPLATES_SRC = 'src/templates',
       TEMPLATES_DEST = 'dist';
@@ -30,6 +34,14 @@ gulp.task('styles', () => {
       }))
       .pipe(gulpif(deploy, cleanCSS()))
       .pipe(gulp.dest(SASS_DEST));
+});
+
+gulp.task('js', () => {
+   gulp.src(`${JS_SRC}/**/*.js`)
+      .pipe(babel({
+         presets: ['env']
+      }))
+      .pipe(gulp.dest(JS_DEST));
 });
 
 gulp.task('copy-assets', () => {
@@ -52,6 +64,7 @@ gulp.task('compile-templates', (cb) => {
 
 gulp.task('default', () => {
    gulp.start('styles');
+   gulp.start('js');
    gulp.start('copy-assets');
    gulp.start('copy-index');
    gulp.start('compile-templates');
@@ -74,6 +87,8 @@ gulp.task('dev', ['default'], () => {
    });
    gulp.watch(`${SASS_SRC}/**/*.scss`, ['styles']);
    gulp.watch(`${TEMPLATES_SRC}/**/*.html`, ['compile-templates']);
+   //lp.watch(`${TEMPLATES_SRC}/**/*.html`, ['create-admin-pages']);
+   gulp.watch(`${JS_SRC}/**/*.js`, ['js']);
    gulp.watch(firebaseAccessor.getDataPath(), ['compile-templates']);
    gulp.watch(`${DIST}/**/*`, browserSync.reload)
 });
