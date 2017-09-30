@@ -21,7 +21,6 @@
     "curl": "^0.1.4",
     "firebase": "^4.3.1",
     "font-awesome": "^4.7.0",
-    "fs-extra": "^4.0.1",
     "handlebars": "^4.0.10",
     "jquery": "^3.2.1",
     "language-templating": "git+https://github.com/SamCosta1/language-templating.git",
@@ -31,8 +30,10 @@
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
+    "aver-cms": "git+https://github.com/SamCosta1/aver-cms.git#develop",
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.0",
+    "fs-extra": "^4.0.1",
     "browser-sync": "^2.18.13",
     "chokidar-cli": "^1.2.0",
     "gulp": "^3.9.1",

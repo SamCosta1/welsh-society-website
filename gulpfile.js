@@ -18,7 +18,7 @@ const SRC = 'src',
       ASSETS_DEST = 'dist/assets',
 
       JS_SRC = 'src/js',
-      JS_DEST = 'dist/js',
+      JS_DEST = DIST,
 
       TEMPLATES_SRC = 'src/templates',
       TEMPLATES_DEST = 'dist';
@@ -92,7 +92,6 @@ gulp.task('dev', ['default'], () => {
    });
    gulp.watch(`${SASS_SRC}/**/*.scss`, ['styles']);
    gulp.watch(`${TEMPLATES_SRC}/**/*.html`, ['compile-templates']);
-   //lp.watch(`${TEMPLATES_SRC}/**/*.html`, ['create-admin-pages']);
    gulp.watch(`${JS_SRC}/**/*.js`, ['js']);
    gulp.watch(firebaseAccessor.getDataPath(), ['compile-templates']);
    gulp.watch(`${DIST}/**/*`, browserSync.reload)
