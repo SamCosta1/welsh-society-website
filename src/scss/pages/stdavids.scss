@@ -16,14 +16,14 @@
       display: flex;
       background-color: rgba(0, 0, 0, 0.75);
    }
-   .popup {    
+   .popup {
       border-radius: 10px;
       background-color: white;
       position: relative;
       text-align: center;
       .close {
          cursor: pointer;
-         position: absolute;       
+         position: absolute;
          right: 9px;
          top: 5px;
       }
@@ -31,80 +31,80 @@
       .caption {
          padding-top: 0px !important;
       }
-      img,.caption {
+      img, .caption {
          max-height: 80vh;
          max-width: 90vw;
          padding: 20px;
          border-radius: 30px;
          @media only screen and (min-width: $smaller-screen) {
-               max-width: 75vw;
+            max-width: 75vw;
          }
       }
    }
 }
 
 .main-content-container {
-    @include main-content-container;
-    .title {
-        padding: 20px 10px 0px 10px;
-        font-size: 20px !important;
-        @media only screen and (min-width: $smaller-screen) {
-            font-size: $title-font-size !important;
-            padding: 20px 0px;
-        }
-    }
+   @include main-content-container;
+   .title {
+      padding: 20px 10px 0px 10px;
+      font-size: 20px !important;
+      @media only screen and (min-width: $smaller-screen) {
+         font-size: $title-font-size !important;
+         padding: 20px 0px;
+      }
+   }
 
-    .years-container {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .images-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        @media only screen and (min-width: $smaller-screen) {
-            flex-wrap: wrap;
-            flex-direction: row;
-        }
-        .image-container {
-            position: relative;
-            &:hover {
-                cursor: pointer;
-                .overlay {
-                    display: flex;
-                }
-            }
+   .years-container {
+      display: flex;
+      flex-direction: column-reverse;
+   }
+   .images-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      @media only screen and (min-width: $smaller-screen) {
+         flex-wrap: wrap;
+         flex-direction: row;
+      }
+      .image-container {
+         position: relative;
+         &:hover {
+            cursor: pointer;
             .overlay {
-                display: none;
-                position: absolute;
-                top: 0px;
-                bottom: 0px;
-                left: 0px;
-                right: 0px;
-                background-color: rgba(255, 255, 255, 0.85);
-                align-items: center;
-                justify-content: center;
-                .content {
-                    text-align: center;
-                }
+               display: flex;
             }
-            padding: 20px 10px;
-            img {
-                max-width: 100%;
-                @media only screen and (min-width: $small-screen) {
-                    &.sm {
-                        max-height: 245px;
-                    }
-                    &.md {
-                        max-height: 260px;
-                    }
-                    &.lg {
-                        max-height: 290px;
-                    }
-                }
+         }
+         .overlay {
+            display: none;
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            background-color: rgba(255, 255, 255, 0.85);
+            align-items: center;
+            justify-content: center;
+            .content {
+               text-align: center;
             }
-        }
-    }
+         }
+         padding: 20px 10px;
+         img {
+            max-width: 100%;
+            @media only screen and (min-width: $small-screen) {
+               &.sm {
+                  max-height: 245px;
+               }
+               &.md {
+                  max-height: 260px;
+               }
+               &.lg {
+                  max-height: 290px;
+               }
+            }
+         }
+      }
+   }
 }
 
 @include header-banner ("../assets/davids-header.jpg");

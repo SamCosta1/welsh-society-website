@@ -4,7 +4,7 @@
 
 .main-content-container {
    @include main-content-container;
-   
+
    .address-container {
       padding: 20px;
       text-align: center;
@@ -35,8 +35,8 @@
             flex: 1;
          }
       }
-   } 
-   
+   }
+
 }
 
 @include header-banner ("../assets/chapel-header.jpg");

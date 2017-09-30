@@ -9,28 +9,29 @@ body {
 footer, .footer-overlap {
    position: absolute;
 }
+
 .main-content-container {
    background-color: gray;
-   flex: 1;   
+   flex: 1;
    margin-top: -$nav-height;
    display: flex;
    justify-content: center;
-   
+
    flex-direction: row;
 
-   .image { 
+   .image {
       width: 100vw;
       display: flex;
       justify-content: center;
       align-items: center;
       background-repeat: no-repeat !important;
       background-size: cover !important;
-      background-position: center center !important; 
-      color: $text-col;  
+      background-position: center center !important;
+      color: $text-col;
 
       .title {
          font-size: 45px;
-      }  
+      }
 
       .content {
          background-color: $theme-col;
@@ -41,7 +42,7 @@ footer, .footer-overlap {
          padding: 20px;
          width: 100vw;
 
-         @media only screen and (min-width: $smaller-screen) and (min-height: 400px) {         
+         @media only screen and (min-width: $smaller-screen) and (min-height: 400px) {
             padding: 30px;
             flex-direction: row;
             img {
@@ -55,7 +56,7 @@ footer, .footer-overlap {
             display: none;
          }
 
-      } 
+      }
    }
 
    .wales {

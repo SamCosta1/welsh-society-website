@@ -3,20 +3,20 @@
       height: 100vh;
       background-color: rgba($theme-col, 0.88);
    }
-   
+
    nav {
-         display: flex;
+      display: flex;
    }
 }
 
 @mixin header-banner($src) {
-      .header-banner {
-            background: url($src);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center; 
-            height: 180px;
-      }
+   .header-banner {
+      background: url($src);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      height: 180px;
+   }
 }
 
 header {
@@ -26,16 +26,14 @@ header {
    justify-content: space-between;
    flex-direction: column;
 
-
    .title {
       display: flex;
       justify-content: space-between;
    }
 
-              
-   @media only screen and (min-width: $small-screen) {  
-      flex-direction: row;   
-      height: auto !important; 
+   @media only screen and (min-width: $small-screen) {
+      flex-direction: row;
+      height: auto !important;
       .toggle {
          display: none;
       }
@@ -73,21 +71,20 @@ header {
          font-size: 20px;
       }
 
-   }   
+   }
 
    nav {
       display: none;
-      flex-direction: column;     
+      flex-direction: column;
       text-align: center;
       flex: 1;
       transition: max-height 1s;
-      
 
       @media only screen and (min-width: $small-screen) {
          flex-direction: row;
          justify-content: flex-end;
-         display: flex;  
-         align-items: center; 
+         display: flex;
+         align-items: center;
          flex: none;
          height: $nav-height;
 
@@ -96,7 +93,7 @@ header {
             padding: 0px 10px !important;
 
             &:hover, &.active {
-               background-color:transparent !important;
+               background-color: transparent !important;
             }
          }
       }
@@ -117,5 +114,5 @@ header {
       }
 
    }
-   
+
 }

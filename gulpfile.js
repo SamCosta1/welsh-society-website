@@ -48,6 +48,10 @@ gulp.task('copy-assets', () => {
    fs.copySync(ASSETS_SRC, ASSETS_DEST);
 });
 
+gulp.task('include-aver', () => {
+   fs.copySync('./node_modules/aver-cms/dist/', DIST);
+});
+
 gulp.task('copy-index', () => {
    fs.copySync(`${SRC}/index.html`, `${DIST}/index.html`);
 });
@@ -67,6 +71,7 @@ gulp.task('default', () => {
    gulp.start('js');
    gulp.start('copy-assets');
    gulp.start('copy-index');
+   gulp.start('include-aver');
    gulp.start('compile-templates');
 });
 
@@ -91,4 +96,5 @@ gulp.task('dev', ['default'], () => {
    gulp.watch(`${JS_SRC}/**/*.js`, ['js']);
    gulp.watch(firebaseAccessor.getDataPath(), ['compile-templates']);
    gulp.watch(`${DIST}/**/*`, browserSync.reload)
+   gulp.watch('./node_modules/aver-cms/dist/**/*', ['include-aver']);
 });
