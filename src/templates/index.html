@@ -7,17 +7,17 @@
    <title>{{title}}</title>
 </head>
 
-<body class="aver-hidden" data-aver-basepath="{{lang}}/index" data-aver-partials="{{lang}}/_partials">
+<body class="aver-hidden" data-aver-basepath="{{lang}}.index" data-aver-partials="{{lang}}._partials">
    {{> header}}
 
    <div class="main-content-container">
       <div class="wales image">
          <div class="content section">
             <div>
-               <div class="title">{{welcome}}</div>
-               <p>{{intro1}}</p>
-               <p>{{intro2}}</p>
-               <p>{{intro3}}</p>
+               <div data-aver-path="welcome" class="title aver-editable">{{welcome}}</div>
+               <p data-aver-path="intro1" class="aver-editable">{{intro1}}</p>
+               <p data-aver-path="intro2" class="aver-editable">{{intro2}}</p>
+               <p data-aver-path="intro3" class="aver-editable">{{intro3}}</p>
             </div>
             <img src="../assets/daffodil.png"/>
          </div>
