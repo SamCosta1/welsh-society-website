@@ -3,7 +3,6 @@
       "chapels": {
          "chapels": "yes",
          "current": "chapels",
-         "lang": "en",
          "learning": "If you are interested, please contact Mrs Lilian Garrett: tel. 0161 969 4351",
          "learning-title": "Learning Welsh?",
          "p1": "There are two Welsh churches in the Manchester area, both belonging to the Presbyterian Church of Wales, one in Altrincham and the other in West Didsbury. Joint services are held on Sundays, either at Altrincham (10.30 am) or West Didsbury (2.30 pm), at which visitors would be warmly welcome. To avoid disappointment, please check in advance which location is being used on any particular Sunday. ",
@@ -16,24 +15,10 @@
          "contact": "yes",
          "current": "contact",
          "email": "e-mail",
-         "lang": "en",
          "minister": "Minister",
          "secretary": "Society Secretary",
          "tel": "Telephone",
          "title": "Contact"
-      },
-      "footer": {
-         "lang": "en",
-         "otherLang": "we",
-         "otherLangName": "Cymraeg"
-      },
-      "header": {
-         "chapels": "Chapels",
-         "contact": "Contact Us",
-         "home": "Home",
-         "society": "Society",
-         "stdavids": "St David's Day",
-         "title": "Manchester Welsh Society"
       },
       "index": {
          "current": "index",
@@ -41,7 +26,6 @@
          "intro1": "We are a group of exiles striving to preserve our heritage and preserving our language by means of welsh literary meetings, concerts and chapel services.",
          "intro2": "Makes you nostalgic?",
          "intro3": "Visit the Society to find out what is going on.",
-         "lang": "en",
          "title": "Manchester Welsh Society",
          "welcome": "Welcome"
       },
@@ -114,7 +98,6 @@
          },
          "events-title": "Events",
          "further-details": "Programme and further details may be obtained from ",
-         "lang": "en",
          "meetings": "Meetings",
          "meetings-text": "Regular meetings are held, on the second Friday of the month from October to February at",
          "society": "yes",
@@ -406,15 +389,27 @@
                }
             ]
          },
-         "lang": "en",
          "title": "St David's Day Concerts"
+      },
+      "_partials": {
+         "footer": {
+            "otherLang": "we",
+            "otherLangName": "Cymraeg"
+         },
+         "header": {
+            "chapels": "Chapels",
+            "contact": "Contact Us",
+            "home": "Home",
+            "society": "Society",
+            "stdavids": "St David's Day",
+            "title": "Manchester Welsh Society"
+         }
       }
    },
    "we": {
       "chapels": {
          "chapels": "yes",
          "current": "chapels",
-         "lang": "en",
          "learning": "Os oes gennych ddiddordeb, cysylltwch â Mrs Lilian Garrett: ffôn. 0161 969 4351",
          "learning-title": "Dysgu Cymraeg?",
          "p1": "Mae dwy eglwys Gymraeg yn ardal Manceinion, yn perthyn i Eglwys Bresbyteraidd Cymru, un yn Altrincham a'r llall yn West Didsbury. gwasanaethau ar y cyd yn cael eu cynnal ar ddydd Sul, naill ai yn Altrincham (10.30 am) neu West Didsbury (2:30 pm), lle byddai'r ymwelydd yn cael ei groesawu'n fawr. Er mwyn osgoi cael eich siomi, gwiriwch o flaen llaw pa leoliad sydd yn cael ei ddefnyddio ar unrhyw ddydd Sul penodol.",
@@ -427,24 +422,10 @@
          "contact": "yes",
          "current": "contact",
          "email": "e-bost",
-         "lang": "we",
          "minister": "Gweinidog",
          "secretary": "Ysgifennydd Cyffredinol",
          "tel": "ffôn",
          "title": "Cysylltwch â Ni"
-      },
-      "footer": {
-         "lang": "we",
-         "otherLang": "en",
-         "otherLangName": "English"
-      },
-      "header": {
-         "chapels": "Capeli",
-         "contact": "Cysylltwch â Ni",
-         "home": "Hafan",
-         "society": "Cymdeithas",
-         "stdavids": "Gwyl Ddewi",
-         "title": "Cymdeithas Cymry Manceinion"
       },
       "index": {
          "current": "index",
@@ -452,7 +433,6 @@
          "intro1": "Cwmni ydym o alltud Cymraeg yn ceisio cadw ein traddodiadau a'n hiaith yn fyw drwy gynnal cyfarfodydd llenyddol, cyngherddau a thrwy addoliad Cristnogol.",
          "intro2": "Codi hiraeth arnoch?",
          "intro3": "Cofiwch ymweld a'r wefan hon yn gyson i ddarganfod mwy am beth sy'n mynd ymlaen.",
-         "lang": "we",
          "title": "Cymdeithas Cymry Manceinion",
          "welcome": "Croeso"
       },
@@ -525,7 +505,6 @@
          },
          "events-title": "Digwyddiadau",
          "further-details": "Y Rhaglen a mwy o fanylion oddiwrth",
-         "lang": "en",
          "meetings": "Cyfarfodydd",
          "meetings-text": "Cynhelir y cyfarfodydd ar yr ail nos Wener o'r mis, o fis Hydref hyd at fis Chwefror yng",
          "society": "yes",
@@ -817,8 +796,21 @@
                }
             ]
          },
-         "lang": "en",
          "title": "Cyngerdd Gwyl Ddewi 2017"
+      },
+      "_partials": {
+         "footer": {
+            "otherLang": "en",
+            "otherLangName": "English"
+         },
+         "header": {
+            "chapels": "Capeli",
+            "contact": "Cysylltwch â Ni",
+            "home": "Hafan",
+            "society": "Cymdeithas",
+            "stdavids": "Gwyl Ddewi",
+            "title": "Cymdeithas Cymry Manceinion"
+         }
       }
    }
 }

@@ -17,7 +17,8 @@ module.exports.reCompile = (data) => {
    for (var lang in jsonData) {
       if (jsonData.hasOwnProperty(lang))
          langs.push(lang);
-      partialsData[lang] = {};
+
+      partialsData[lang] = jsonData[lang]['_partials'];
    }
 
    createDirs();
@@ -64,11 +65,6 @@ function registerPartials(file) {
    const html = fs.readFileSync(`${partials}/${file}`, 'utf-8');
 
    const partialName = file.replace(/.html/, "");
-
-   for (const lang of langs)
-      if (jsonData[lang][partialName])
-         partialsData[lang][partialName] = jsonData[lang][partialName];
-
    Handlebars.registerPartial(partialName, html);
 
 }
